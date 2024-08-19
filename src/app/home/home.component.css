@@ -1,0 +1,51 @@
+/* Full-page background image */
+body {
+ 
+    height: 100%;
+   /* Makes the background stay in place when scrolling */
+}
+
+/* Ensure the navbar takes up the full width of the page */
+.navbar {
+    width: 100%;
+    background-color: burlywood; /* Semi-transparent background */
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 14px 0;
+}
+
+/* Style for the links */
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+/* Add hover effect to links */
+.nav-link:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+#content {
+    
+    background-image: url('../../assets/images/back.jpg');
+    min-height: 100vh;
+    padding: 0; 
+    background-size: cover; /* Ensure the image covers the entire element */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+p {
+    color:whitesmoke; /* Text color */
+    font-size: 70px; /* Adjust the size as needed */
+    text-align: center; /* Center the text horizontally */
+    font-weight: bold; /* Make the text bold */
+    padding: 10px; /* Adjust padding as needed */
+    border-radius: 5px; /* Optional: rounded corners */
+}
+
+
+
