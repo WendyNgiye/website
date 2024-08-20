@@ -1,7 +1,7 @@
 
 #content {
     
-    background-image: url('../../assets/images/back.jpg');
+    background-image: url('../../assets/images/aboutus.jpeg');
     min-height: 100vh;
     background-size: cover; 
     background-position: center; 
@@ -28,20 +28,7 @@
     display: inline-block; 
     margin: 10px 0; 
 }
-.para{
 
-   color: goldenrod; 
-   font-style: italic;
-   font-weight: bold;
-   display: flex;
-   justify-content: center; 
-   align-items: center; 
-   flex-direction: column; 
-   font-size:3rem ;
-   margin-top: -15rem;
-    
-   
-}
 
 
 
