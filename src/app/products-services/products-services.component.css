@@ -1,76 +1,132 @@
-.title {
-  text-align: center;
+
+.container{
+  margin-top: -1rem;
+}
+.p{
   color: whitesmoke;
+  background-color:lightslategray;
+  font-size: 2rem;
+}
+/* Title styling */
+.title, .t, .titletwo {
+  text-align: center;
+  color: blue;
   font-size: 2rem;
   font-weight: bold;
   margin-top: 1rem;
-
-}
-.titletwo {
-  text-align: center;
-  color: blue;
-  
 }
 
+.t {
+  color: white;
+}
+
+/* Container background */
 .container {
   background-image: url('../../assets/images/downloadtwo.jpeg');
-
 }
 
-  #services {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; /* Adjust spacing between items */
-  }
-  
-  .service-item {
-    flex: 1 0 30%; /* Allow items to take up to 30% of the width */
-    box-sizing: border-box; /* Include padding and border in width */
-    margin: 10px; /* Add some margin for spacing */
-    padding: 20px; /* Add padding inside the service items */
-    border: 1px solid #ccc; /* Optional: add border */
-    border-radius: 5px; /* Optional: add rounded corners */
-    background-color: #f9f9f9; /* Optional: background color */
-  }
-  .products {
-    background-color: white;
-
-  }
- 
- 
-  .product-row {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px; /* Space between product items */
-    margin-top: 20px;
-  }
-  
- 
-  .productone {
-    background-image: url('../../assets/images/download\ \(9\).jpeg');
-    width: 15rem; 
-    height: 15rem;
-    margin-left: 1rem;
-    
-   
+/* Services section styling */
+#services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-.producttwo {
-  background-image: url('../../assets/images/image\ 1.jpeg');
-  width: 15rem; 
-  height: 15rem;
-  margin-left: 1rem;
-  
- 
+
+.service-item {
+  flex: 1 0 30%;
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+/* Products section styling */
+.products {
+  background-color: grey; /* Change background color */
+  padding: 20px; /* Add padding for spacing */
+  margin-top: 20px; /* Add space between sections */
+}
+
+.product-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.product-item {
+  flex: 1 0 22%; /* Change to 22% to accommodate 4 items in a row */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.productone, .producttwo, .productfour,.productthree, .productfive, .productsix, .productseven, .producteight, .productten, .productnine 
+, .productten  , .producteleven , .producttwelve,.prodone,.prodtwo,.prodthree,.prodfour {
+  width: 19rem; 
+  height: 19rem;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Product images */
+.productone {
+  background-image: url('../../assets/images/mirrors.jpeg');
+}
+
+.producttwo  {
+  background-image: url('../../assets/images/carpets.jpeg');
+}
+.productthree  {
+  background-image: url('../../assets/images/vases.jpeg');
 }
 .productfour {
-  background-image: url('../../assets/images/image\ 1.jpeg');
-  width: 15rem; 
-  height: 15rem;
-  margin-left: 1rem;
-  
- 
+  background-image: url('../../assets/images/ten.jpg');
 }
-  
-  
-  
-  
+ 
+.productfive{
+  background-image: url('../../assets/images/decopieces.jpeg');
+}
+.productsix{
+  background-image: url('../../assets/images/lightins.jpeg');
+}
+.productseven {
+  background-image: url('../../assets/images/download\ \(11\).jpeg');
+}
+.producteight{
+  background-image: url('../../assets/images/candles.jpeg');
+}
+
+.productnine {
+  background-image: url('../../assets/images/glasses.jpeg');
+}
+.productten {
+  background-image: url('../../assets/images/pillows.jpeg');
+}
+.producteleven{
+  background-image: url('../../assets/images/diffusor.jpeg');
+}
+.producttwelve{
+  background-image: url('../../assets/images/photo\ frames.jpeg');
+}
+.prodone{
+  background-image: url('../../assets/images/curtains.jpeg');
+}
+.prodtwo{
+  background-image: url('../../assets/images/download\ \(12\).jpeg');
+}
+.prodthree{
+  background-image: url('../../assets/images/marbles.jpeg');
+}
+.prodfour{
+  background-image: url('../../assets/images/showpiece.jpeg');
+}
+
+/* Product description */
+.product-description {
+  margin-top: 10px;
+  color: #333;
+}
