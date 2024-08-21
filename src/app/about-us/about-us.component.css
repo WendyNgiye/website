@@ -1,26 +1,41 @@
-
 #content {
-    
-    background-image: url('../../assets/images/aboutus.jpeg');
+    background-image: url('../../assets/images/four.jpeg');
     min-height: 100vh;
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
     margin-top: -40px; /* Adjust this value as needed */
-}
-/* Apply Flexbox to the parent container */
-.main-content {
     display: flex;
-    justify-content: center; 
-    align-items: center; 
-    height: 100vh; 
-    flex-direction: column; 
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 2rem; /* Add space between the left and right sections */
 }
 
-/* Style for paragraphs */
-.main-content p {
+.left {
+    width: 50%; /* Adjusted width for more balanced layout */
+    padding-right: 20px;
+}
+
+.right {
+    width: 45%; /* Adjusted width to align better with the left section */
+    display: flex;
+    flex-direction: column; /* Ensure the photos are stacked vertically */
+    gap: 2rem; /* Space between the photos */
+}
+
+.right img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 10rem;
+    background-image: url('../../assets/images/eleven.jpeg');
+}
+
+.main-content p, h2 {
     color: whitesmoke; 
-    font-size: 70px; 
+    font-size: 20px; /* Adjusted font size for better readability */
     font-weight: 900;
     padding: 10px; 
     border-radius: 5px; 
@@ -29,8 +44,51 @@
     margin: 10px 0; 
 }
 
+h2 {
+    font-size: 36px; /* Adjusted font size to better match the layout */
+    background-color: rgba(128, 128, 128, 0.7); 
+    margin-bottom: 20px;
+}
 
+.photo, .p {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -1rem;
+}
 
+/* Background image for .photo */
+.photo{
+    background-image: url('../../assets/images/image\ 1.jpeg');
+    width: 23rem; 
+    height: 23rem;
+    margin-left: -17rem;
+    
+   
+}
 
+/* Background image for .p and .ph */
+.p {
+    background-image: url('../../assets/images/three.jpeg');
+    
+    width: 22rem; 
+    height: 22rem; 
+    margin-top: -5rem; 
+}
 
+button {
+    display: block;
+    width: 100%; /* Make buttons take up full width */
+    margin-bottom: 10px; /* Space between buttons */
+    padding: 10px; /* Add padding for better button size */
+    font-size: 16px; /* Adjust font size */
+    background-color: gray; /* Button background color */
+    color: whitesmoke; /* Button text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Add border radius for better look */
+    cursor: pointer; /* Add pointer cursor on hover */
+}
 
+button:hover {
+    background-color: darkgray; /* Change background on hover */
+}
