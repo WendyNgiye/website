@@ -4,7 +4,7 @@
 }
 .p{
   color: whitesmoke;
-  background-color:lightslategray;
+  background-color: rgba(128, 128, 128, 0.925);;
   font-size: 2rem;
 }
 /* Title styling */
@@ -127,6 +127,26 @@
 
 /* Product description */
 .product-description {
-  margin-top: 10px;
-  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #ffffff9d;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+  width: 100%;
+  height: 250px; /* Adjust the height as needed */
+  background-size: cover;
+  background-position: center;
+}
+
+.card-content {
+  padding: 5px;
+  text-align: center;
 }

@@ -46,9 +46,11 @@
 
 h2 {
     font-size: 36px; /* Adjusted font size to better match the layout */
-    background-color: rgba(128, 128, 128, 0.7); 
+    background-color:white; 
     margin-bottom: 20px;
+    color:goldenrod;
 }
+
 
 .photo, .p {
     background-size: contain;
@@ -60,8 +62,8 @@ h2 {
 /* Background image for .photo */
 .photo{
     background-image: url('../../assets/images/image\ 1.jpeg');
-    width: 23rem; 
-    height: 23rem;
+    width: 25rem; 
+    height: 25rem;
     margin-left: -17rem;
     
    
@@ -82,7 +84,7 @@ button {
     margin-bottom: 10px; /* Space between buttons */
     padding: 10px; /* Add padding for better button size */
     font-size: 16px; /* Adjust font size */
-    background-color: gray; /* Button background color */
+    background-color: lightslategray; /* Button background color */
     color: whitesmoke; /* Button text color */
     border: none; /* Remove default border */
     border-radius: 5px; /* Add border radius for better look */
@@ -91,4 +93,7 @@ button {
 
 button:hover {
     background-color: darkgray; /* Change background on hover */
+}
+.container{
+    background-color: #4158D0; background-image:linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 }
