@@ -18,10 +18,11 @@
 }
 
 .right {
-    width: 45%; /* Adjusted width to align better with the left section */
+    width: 45%; 
     display: flex;
-    flex-direction: column; /* Ensure the photos are stacked vertically */
-    gap: 2rem; /* Space between the photos */
+    flex-direction: column; 
+    gap: 2rem; 
+    align-items: flex-start; /* Keeps the first image aligned to the left */
 }
 
 .right img {
@@ -62,7 +63,7 @@ h2 {
 /* Background image for .photo */
 .photo{
     background-image: url('../../assets/images/image\ 1.jpeg');
-    width: 25rem; 
+    width: 60rem; 
     height: 25rem;
     margin-left: -17rem;
     
@@ -73,9 +74,12 @@ h2 {
 .p {
     background-image: url('../../assets/images/three.jpeg');
     
-    width: 22rem; 
+    width: 40rem; 
     height: 22rem; 
-    margin-top: -5rem; 
+    margin-left: auto; /* Pushes the second photo to the far right */
+    margin-top: -7rem; /* Adjust this to control vertical position */
+   margin-left: 64%;   
+    
 }
 
 button {
