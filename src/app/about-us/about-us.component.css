@@ -54,18 +54,19 @@ h2 {
 
 
 .photo, .p {
-    background-size: contain;
+    background-size: cover; /* Fill the entire container */
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 100%; /* Make the images round */
     margin-top: -1rem;
 }
 
 /* Background image for .photo */
 .photo{
     background-image: url('../../assets/images/image\ 1.jpeg');
-    width: 60rem; 
+    width: 25rem; 
     height: 25rem;
-    margin-left: -17rem;
+    margin-left: 9rem;
     
    
 }
@@ -77,9 +78,8 @@ h2 {
     width: 40rem; 
     height: 22rem; 
     margin-left: auto; /* Pushes the second photo to the far right */
-    margin-top: -7rem; /* Adjust this to control vertical position */
-   margin-left: 64%;   
-    
+    margin-top: -5rem; /* Adjust this to control vertical position */
+  
 }
 
 button {

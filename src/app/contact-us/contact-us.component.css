@@ -51,7 +51,7 @@
 
 }
 .cont {
-  background-image: url('../../assets/images/down.jpeg');
+  background-image: url('../../assets/images/homedthree.jpeg');
   width: 21rem;
   height: 21rem;
   margin-top: -2rem;
@@ -101,6 +101,10 @@
 
 .contact {
   background-color: gainsboro;
+  background-image: url('../../assets/images/four.jpeg');
   padding: 20px;
-  margin-top: 20px;
+  background-size: cover; 
+  background-position: center; 
+    background-repeat: no-repeat; 
+
 }

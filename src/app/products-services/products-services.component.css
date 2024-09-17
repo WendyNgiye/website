@@ -6,6 +6,7 @@
   color: whitesmoke;
   background-color: rgba(128, 128, 128, 0.925);;
   font-size: 2rem;
+  margin-top: -3rem;
 }
 /* Title styling */
 .title, .t, .titletwo {
@@ -30,12 +31,14 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-top: -20px;
 }
 
 .service-item {
   flex: 1 0 30%;
   box-sizing: border-box;
-  margin: 10px;
+  margin: 5px;
+ 
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -46,7 +49,7 @@
 .products {
   background-color: grey; /* Change background color */
   padding: 20px; /* Add padding for spacing */
-  margin-top: 20px; /* Add space between sections */
+  margin-top: -2px; /* Add space between sections */
 }
 
 .product-row {
