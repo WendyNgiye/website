@@ -9,16 +9,16 @@ import { ProductsServicesComponent } from './products-services/products-services
 const routes: Routes = [
 
   {
-    path: 'contact us',
+    path: 'contact',
     component: ContactUsComponent,
   },
   
   {
-    path: 'home',
+    path: '',
     component: HomeComponent,
   },
   {
-    path: 'about us',
+    path: 'about ',
     component: AboutUSComponent,
   },
   {
@@ -26,7 +26,7 @@ const routes: Routes = [
     component: ProjectsComponent,
   },
   {
-    path: 'products/services',
+    path: 'productsservices',
     component: ProductsServicesComponent,
   },
 ];
