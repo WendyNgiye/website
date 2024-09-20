@@ -7,18 +7,21 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ProductsServicesComponent } from './products-services/products-services.component';
 
 const routes: Routes = [
-
-  {
-    path: 'contact',
-    component: ContactUsComponent,
-  },
-  
   {
     path: '',
     component: HomeComponent,
   },
   {
-    path: 'about ',
+    path: 'home',
+    component: HomeComponent,
+  },
+  {
+    path: 'contactus',
+    component: ContactUsComponent,
+  },
+  
+  {
+    path: 'about',
     component: AboutUSComponent,
   },
   {
