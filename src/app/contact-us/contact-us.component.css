@@ -1,9 +1,10 @@
 .contact-container {
   display: flex;
-  flex-direction: column; /* Stack image and content vertically */
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 20px;
+  max-width: 100%; /* Ensure container doesn't overflow */
 }
 
 .contact-details-wrapper {
@@ -14,65 +15,65 @@
   margin-top: 20px;
   max-width: 1200px;
 }
+
 .card {
-  background-color: rgba(255, 0, 0, 0.288); /* Card background color */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Card shadow */
-  border-radius: 8px; /* Rounded corners */
-  padding: 20px; /* Internal padding */
-  margin: 0 10px; /* Spacing between cards */
-  flex: 1; /* Equal space for each card */
+  background-color: rgba(255, 0, 0, 0.288);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  margin: 0 10px;
+  flex: 1;
 }
 
 .contact-details, .location {
-  flex: 1; /* Make both sections take up equal space */
-  padding: 0 20px; /* Add some padding for spacing */
-  text-align: left; /* Align text to the left */
+  flex: 1;
+  padding: 0 20px;
+  text-align: left;
 }
+
 .image-row {
-  display: flex; /* Align images in a row */
-  justify-content: center; /* Center the images */
-  margin-bottom: 20px; /* Space between images and contact details */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
+
 .contactimage, .cont {
   background-position: center;
-  width: 40rem; 
-  height: 20rem; 
-  margin: 0 1rem; /* Adjust spacing between images */
+  width: 40rem;
+  height: 20rem;
+  margin: 0 1rem;
+  border-radius: 50%;
 }
 
 .contactimage {
   background-image: url('../../assets/images/ContactUs-2024.jpg');
-  width: 40rem; 
-  height: 21rem; 
-  margin-top: -2rem; /* Space between image and contact details */
+  width: 40rem;
+  height: 21rem;
+  margin-top: -2rem;
   position: relative;
   margin-left: 1rem;
-  border-radius: 50%;
-
 }
+
 .cont {
   background-image: url('../../assets/images/homedthree.jpeg');
   width: 21rem;
   height: 21rem;
   margin-top: -2rem;
   position: relative;
-  border-radius: 50%; 
-  background-size: cover; 
-  background-position: center;
+  background-size: cover;
 }
 
 .social-media-icons {
   display: flex;
-  justify-content: start; /* Align icons to the left */
+  justify-content: start;
   gap: 15px;
-  margin-top: 10px; /* Add space above the icons */
+  margin-top: 10px;
 }
 
 .facebook, .x, .linkedin, .instagram {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
- 
 }
 
 .facebook {
@@ -103,8 +104,40 @@
   background-color: gainsboro;
   background-image: url('../../assets/images/four.jpeg');
   padding: 20px;
-  background-size: cover; 
-  background-position: center; 
-    background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .contact-details-wrapper {
+    flex-direction: column; /* Stack cards vertically */
+    align-items: center;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .contactimage, .cont {
+    width: 100%; /* Full width for smaller screens */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0;
+  }
+
+  .contact-details, .location {
+    text-align: center; /* Center align for small screens */
+  }
+
+  .social-media-icons {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .contactimage, .cont {
+    width: 90%; /* Even smaller image for mobile phones */
+    height: auto;
+  }
 }

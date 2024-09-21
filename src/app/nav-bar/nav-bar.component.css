@@ -1,32 +1,52 @@
+/* Default navbar styles */
 .navbar {
     position: relative; 
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    background-color:burlywood; 
+    background-color: burlywood; 
     overflow: hidden;
+    flex-wrap: wrap; /* Allows wrapping of items */
 }
+
 .navbar .nav-link {
-    margin-left: 12rem; 
     color: whitesmoke;
     text-decoration: none;
     font-size: 18px;
-    margin-left: 2rem;
+    margin-left: 2rem; /* Add spacing between links */
 }
 
 .navbar .nav-link:hover {
     color: #ddd; /* Lighter color on hover */
 }
+
 .logo {
-    position: absolute;
     background-image: url('../../assets/images/logo\ 3.JPG');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     width: 3rem; 
     height: 3rem; 
-    z-index: 1; 
-    margin-left: -2%; 
-    
+    margin-right: 20px; /* Space between logo and nav links */
+}
+
+/* Responsive design for mobile devices */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-start; /* Align items to the left */
+    }
+
+    .navbar .nav-link {
+        margin-left: 0; /* Remove horizontal margin */
+        padding: 10px 0; /* Add vertical padding for better spacing */
+        font-size: 16px; /* Adjust font size for mobile */
+    }
+
+    .logo {
+        margin-left: 0; /* Adjust the logo position */
+        margin-bottom: 10px; /* Add spacing below the logo */
+        align-self: center; /* Center logo in mobile view */
+    }
 }
