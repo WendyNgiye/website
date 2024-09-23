@@ -1,4 +1,58 @@
 /* Title styling */
+
+
+.container {
+  margin-top: -1rem;
+}
+
+.p {
+  color: whitesmoke;
+  background-color: rgba(128, 128, 128, 0.925);
+  font-size: 2rem;
+  margin-top: -3rem;
+}
+
+/* Title styling */
+ .t, .titletwo {
+  text-align: center;
+  color: blue;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.title,.t {
+  color: white;
+  text-align: center;
+
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+/* Container background */
+.container {
+  background-image: url('../../assets/images/downloadtwo.jpeg');
+}
+
+/* Services section styling */
+#services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: -20px;
+}
+
+.service-item {
+  flex: 1 0 30%;
+  box-sizing: border-box;
+  margin: 5px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
 .title {
   text-align: center;
   color: blue;

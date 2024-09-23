@@ -4,7 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { AboutUSComponent } from './about-us/about-us.component';
 import { ProjectsComponent } from './projects/projects.component';
-import { ProductsServicesComponent } from './products-services/products-services.component';
+
 
 import { MirrorComponent } from './mirror/mirror.component';
 import { AirFreshenerComponent } from './air-freshener/air-freshener.component';
@@ -22,6 +22,7 @@ import { ShowpiecesComponent } from './showpieces/showpieces.component';
 import { VasesComponent } from './vases/vases.component';
 import { WallArtComponent } from './wall-art/wall-art.component';
 import { WallpapersComponent } from './wallpapers/wallpapers.component';
+import { ProductsComponent } from './products/products.component';
 
 
 const routes: Routes = [
@@ -46,9 +47,10 @@ const routes: Routes = [
     path: 'projects',
     component: ProjectsComponent,
   },
+  
   {
-    path: 'productsservices',
-    component: ProductsServicesComponent,
+    path: 'products',
+    component: ProductsComponent,
   },
   {
     path: 'mirror',
