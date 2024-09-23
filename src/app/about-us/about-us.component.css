@@ -47,10 +47,11 @@
 
 h2 {
     font-size: 36px; /* Adjusted font size to better match the layout */
-    background-color: white; 
+    background-color:white; 
     margin-bottom: 20px;
-    color: goldenrod;
+    color:goldenrod;
 }
+
 
 .photo, .p {
     background-size: cover; /* Fill the entire container */
@@ -61,20 +62,24 @@ h2 {
 }
 
 /* Background image for .photo */
-.photo {
-    background-image: url('../../assets/images/image\ 1.jpeg'); /* Use %20 for spaces */
+.photo{
+    background-image: url('../../assets/images/image\ 1.jpeg');
     width: 25rem; 
     height: 25rem;
     margin-left: 9rem;
+    
+   
 }
 
 /* Background image for .p and .ph */
 .p {
     background-image: url('../../assets/images/three.jpeg');
+    
     width: 40rem; 
     height: 22rem; 
     margin-left: auto; /* Pushes the second photo to the far right */
     margin-top: -5rem; /* Adjust this to control vertical position */
+  
 }
 
 button {
@@ -93,37 +98,7 @@ button {
 button:hover {
     background-color: darkgray; /* Change background on hover */
 }
-
-.container {
-    background-color: #4158D0; 
-    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+.container{
+    background-color: #4158D0; background-image:linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 }
-
-/* Media Query for Mobile Devices */
-@media screen and (max-width: 768px) {
-    #content {
-        flex-direction: column; /* Stack sections vertically */
-        align-items: center; /* Center align content */
-    }
-
-    .left {
-        width: 100%; /* Full width for left section */
-        padding-right: 0; /* Remove padding */
-    }
-
-    .right {
-        width: 100%; /* Full width for right section */
-        margin-top: 20px; /* Space between sections */
-    }
-
-    .photo {
-        margin-left: 0; /* Center photo */
-        width: 80%; /* Adjust width for mobile */
-    }
-
-    .p {
-        width: 80%; /* Adjust width for mobile */
-        margin-left: 0; /* Center p */
-        margin-top: 0; /* Reset margin */
-    }
-}
+ 

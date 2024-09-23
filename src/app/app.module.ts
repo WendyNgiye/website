@@ -10,6 +10,23 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 
+import { MirrorComponent } from './mirror/mirror.component';
+import { CarpetsMatsComponent } from './carpets-mats/carpets-mats.component';
+import { VasesComponent } from './vases/vases.component';
+import { WallArtComponent } from './wall-art/wall-art.component';
+import { DecorPiecesComponent } from './decor-pieces/decor-pieces.component';
+import { LightingComponent } from './lighting/lighting.component';
+import { ArtificialPlantsComponent } from './artificial-plants/artificial-plants.component';
+import { CandlesComponent } from './candles/candles.component';
+import { DecorativePillowsComponent } from './decorative-pillows/decorative-pillows.component';
+import { AirFreshenerComponent } from './air-freshener/air-freshener.component';
+import { ColorfulglasswareComponent } from './colorfulglassware/colorfulglassware.component';
+import { PhotoFramesComponent } from './photo-frames/photo-frames.component';
+import { CurtainsholderComponent } from './curtainsholder/curtainsholder.component';
+import { WallpapersComponent } from './wallpapers/wallpapers.component';
+import { GlassmarblesComponent } from './glassmarbles/glassmarbles.component';
+import { ShowpiecesComponent } from './showpieces/showpieces.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,11 +35,30 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
     ProductsServicesComponent,
     ProjectsComponent,
     ContactUsComponent,
-    NavBarComponent
+    NavBarComponent,
+    
+    MirrorComponent,
+          CarpetsMatsComponent,
+          VasesComponent,
+          WallArtComponent,
+          DecorPiecesComponent,
+          LightingComponent,
+          ArtificialPlantsComponent,
+          CandlesComponent,
+          DecorativePillowsComponent,
+          AirFreshenerComponent,
+          ColorfulglasswareComponent,
+          PhotoFramesComponent,
+          CurtainsholderComponent,
+          WallpapersComponent,
+          GlassmarblesComponent,
+          ShowpiecesComponent,
+  
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+   
   ],
   providers: [],
   bootstrap: [AppComponent]
