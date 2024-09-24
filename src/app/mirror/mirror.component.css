@@ -42,7 +42,7 @@
     color: #1a73e8;
 }
 
-.one, .two {
+.one, .two,.round {
     width: 100%;
     height: 0;
     padding-bottom: 75%; /* Aspect ratio to maintain image proportions (4:3) */
@@ -58,6 +58,14 @@
 .two {
     background-image: url('../../assets/mirror/two.jpeg');
 }
+.round {
+    background-image: url('../../assets/mirror/Round.jpeg');
+}
+h3 {
+    color:blue;
+    font-style: italic;
+  }
+
 
 /* Responsive styling for smaller screens */
 @media screen and (max-width: 768px) {
