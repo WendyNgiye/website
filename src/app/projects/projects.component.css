@@ -40,7 +40,8 @@
 
 /* Products section styling */
 .products {
-  background-color: gainsboro; /* Change background color */
+  background-color:
+  #365150; /* Change background color */
   padding: 20px; /* Add padding for spacing */
 }
 
@@ -95,6 +96,11 @@
   background-image: url('../../assets/images/diningtable.jpeg');
 }
 
+.ballroom {
+  background-image: url('../../assets/images/Ballroom.jpeg');
+}
+
+
 /* Product description */
 .product-description {
   font-size: 16px;
@@ -106,7 +112,7 @@
   border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
-  background-color: #ffffff9d;
+  background-color: white;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
