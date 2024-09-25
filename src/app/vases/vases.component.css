@@ -1,0 +1,93 @@
+.title {
+    color:white;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+.back {
+    background-color: #796b6b;
+    margin-top: -1rem;
+}
+.product-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-card {
+    width: 15%; /* Increase the width for larger image display */
+    background-color: white;
+    border-radius: 8px;
+   
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s;
+    overflow: hidden; /* Prevent overflow of content */
+}
+
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-image {
+    max-width: 120%;
+    height: 100%;
+    border-radius: 5px;
+}
+.product-info h3 {
+    font-size: 1em; /* Reduce font size */
+    margin: 8px 0; /* Reduce spacing */
+}
+
+
+.description {
+    font-size: 0.9em; /* Reduce description font size */
+    margin-bottom: 5px; /* Reduce margin */
+}
+
+.price-range {
+    font-size: 0.9em; /* Reduce font size */
+    font-weight: bold;
+    color: #1a73e8;
+}
+
+
+.masonjar, .bud , .cylinder{
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%; /* Make the image container square */
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px 8px 0 0;
+}
+
+.masonjar {
+    background-image: url('../../assets/images/masonjar.jpeg');
+}
+.bud {
+    background-image: url('../../assets/images/bud.jpeg');
+}
+.cylinder {
+    background-image: url('../../assets/images/cylinder.jpeg');
+}
+cylinder
+
+
+
+
+h3 {
+    color:blue;
+    font-style: italic;
+  }
+
+
+/* Responsive styling for smaller screens */
+@media screen and (max-width: 768px) {
+    .product-card {
+        width: 100%; /* Full width on smaller devices */
+    }
+}

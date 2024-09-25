@@ -1,4 +1,13 @@
-.product-section {
+
+
+.title {
+    color:blue;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  .product-section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
