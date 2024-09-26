@@ -1,3 +1,8 @@
+.back {
+    background-image: url('../../assets/images/backgroundone.jpeg');
+    margin-top: -1rem;
+}
+
 .title {
     color:blue;
     text-align: center;
@@ -14,8 +19,9 @@
 }
 
 .product-card {
-    width: 30%;
+    width: 20%;
     border: 1px solid #ddd;
+    background-color: white;
     border-radius: 8px;
     padding: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -42,14 +48,24 @@
 .description {
     color: #555;
     margin-bottom: 8px;
+    text-align: left;
 }
 
 .price-range {
     font-weight: bold;
-    color: #1a73e8;
+    color:red;
 }
 
-.mat, .rug, .round {
+.rug,.mat,.bedroom
+,.dining
+,.hallway
+,.entrance
+,.fatigue
+,.gym
+,.chair
+,.logo
+,.outdoor
+,.bath{
     width: 100%;
     height: 0;
     padding-bottom: 75%; /* Aspect ratio to maintain image proportions (4:3) */
@@ -64,9 +80,38 @@
 .rug {
     background-image: url('../../assets/images/rug.jpeg');
 }
-.round {
-    background-image: url('../../assets/images/round.jpeg');
+.bedroom  {
+    background-image: url('../../assets/mats/BedroomCarpet.jpeg');
 }
+.dining  {
+    background-image: url('../../assets/mats/dining.jpeg');
+}
+
+.hallway  {
+    background-image: url('../../assets/mats/hallway.jpeg');
+}
+.entrance  {
+    background-image: url('../../assets/mats/entrance.jpeg');
+}
+.fatigue  {
+    background-image: url('../../assets/mats/Fatigue.jpeg');
+}
+.gym  {
+    background-image: url('../../assets/mats/gym.jpeg');
+}
+.chair  {
+    background-image: url('../../assets/mats/chairmat.jpeg');
+}
+.logo  {
+    background-image: url('../../assets/mats/logo.jpeg');
+}
+.outdoor  {
+    background-image: url('../../assets/mats/outdoor.jpeg');
+}
+.bath  {
+    background-image: url('../../assets/mats/Bathroommat.jpeg');
+}
+
 
 
 h3 {
