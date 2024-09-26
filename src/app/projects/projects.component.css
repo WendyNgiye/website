@@ -62,7 +62,7 @@
 }
 
 .productone, .producttwo, .productthree,.productfour, 
-.productfive, .productsix, .productseven, .producteight {
+.productfive, .productsix, .productseven, .producteight ,.closet{
   width: 100%;
   height: auto;
   background-size: cover;
@@ -98,6 +98,9 @@
 
 .ballroom {
   background-image: url('../../assets/images/Ballroom.jpeg');
+}
+.closet {
+  background-image: url('../../assets/images/closet.jpeg');
 }
 
 

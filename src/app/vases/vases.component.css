@@ -47,16 +47,18 @@
 .description {
     font-size: 0.9em; /* Reduce description font size */
     margin-bottom: 5px; /* Reduce margin */
+    text-align: left; /* Align text to the left */
 }
 
 .price-range {
     font-size: 0.9em; /* Reduce font size */
     font-weight: bold;
-    color: #1a73e8;
+    color: red;
 }
 
 
-.masonjar, .bud , .cylinder{
+.masonjar, .bud , .cylinder ,.ceramic,.cube,.pitcher,.urn,.pedestial,.sculpural
+,.bouquet,.glass,.antique,.narrow,.rustic,.beaker,.ampora,.fluted,.trumpet{
     width: 100%;
     height: 0;
     padding-bottom: 100%; /* Make the image container square */
@@ -74,7 +76,41 @@
 .cylinder {
     background-image: url('../../assets/images/cylinder.jpeg');
 }
-cylinder
+
+.ceramic {
+    background-image: url('../../assets/images/ceramic.jpeg');
+}.cube{
+    background-image: url('../../assets/images/cube.jpeg');
+}
+.pitcher{
+    background-image: url('../../assets/images/pitcher.jpeg');
+}.urn{
+    background-image: url('../../assets/images/Urn.jpeg');
+}.pedestial{
+    background-image: url('../../assets/images/pedestial.jpeg');
+}.sculpural{
+    background-image: url('../../assets/images/sculpural.jpeg');
+}
+.bouquet{
+    background-image: url('../../assets/images/baquet.jpeg');
+}.glass{
+    background-image: url('../../assets/images/glassbowl.jpeg');
+}.antique{
+    background-image: url('../../assets/images/antique.jpeg');
+}.narrow{
+    background-image: url('../../assets/images/narrowneck.jpeg');
+}.rustic{
+    background-image: url('../../assets/images/rusted.jpeg');
+}.beaker{
+    background-image: url('../../assets/images/beaker.jpeg');
+}.ampora{
+    background-image: url('../../assets/images/ampora.jpeg');
+}.fluted{
+    background-image: url('../../assets/images/flutted.jpeg');
+}.trumpet{
+    background-image: url('../../assets/images/trumpet.jpeg');
+}
+
 
 
 
