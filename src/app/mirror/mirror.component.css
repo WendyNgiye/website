@@ -111,11 +111,8 @@ h3 {
     .product-card {
         flex-direction: column; /* Stacks items vertically on mobile */
         gap: 10px; /* Adjust gap */
-       
-        
+               
     }
-    
-
     .product-layout {
         flex-direction: column; /* Stack items vertically */
         align-items: flex-start; /* Align items to start */
