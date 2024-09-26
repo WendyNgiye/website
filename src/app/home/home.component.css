@@ -1,8 +1,8 @@
 
 #content {
     
-    background-image: url('../../assets/images/back.jpg');
-   height: vh;
+       background-image: url('../../assets/images/back.jpg');
+
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 

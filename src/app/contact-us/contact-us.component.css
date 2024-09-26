@@ -119,6 +119,11 @@
   .card {
     margin-bottom: 20px;
   }
+  .image-row {
+    display: flex;
+    flex-direction: column; /* Stack images vertically */
+    align-items: center;
+  }
 
   .contactimage, .cont {
     width: 100%; /* Full width for smaller screens */
@@ -136,8 +141,23 @@
 }
 
 @media (max-width: 480px) {
-  .contactimage, .cont {
-    width: 90%; /* Even smaller image for mobile phones */
-    height: auto;
+  .contactimage {
+    width: 25rem; /* Set the desired width */
+    height: 15rem; /* Set the desired height */
+    object-fit: cover; /* Ensure the image covers the container without distortion */
+    background-position: center; /* Center the image in the container */
+    background-size: cover; /* Ensures background image covers the container */
+    border-radius: 50%; /* Keeps the rounded shape */
+       
+       
   }
+  .cont {
+    width: 20rem; 
+    height: 15rem; 
+    object-fit: cover; /* Ensure the image covers the container without distortion */
+    background-position: center; /* Center the image in the container */
+    background-size: cover; /* Ensures background image covers the container */
+   
+   
+}
 }
