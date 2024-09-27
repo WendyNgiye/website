@@ -17,7 +17,6 @@ import { DecorPiecesComponent } from './decor-pieces/decor-pieces.component';
 import { DecorativePillowsComponent } from './decorative-pillows/decorative-pillows.component';
 import { GlassmarblesComponent } from './glassmarbles/glassmarbles.component';
 import { LightingComponent } from './lighting/lighting.component';
-import { PhotoFramesComponent } from './photo-frames/photo-frames.component';
 import { ShowpiecesComponent } from './showpieces/showpieces.component';
 import { VasesComponent } from './vases/vases.component';
 import { WallArtComponent } from './wall-art/wall-art.component';
@@ -96,10 +95,7 @@ const routes: Routes = [
     path: 'lighting',
     component: LightingComponent,
   },
-  {
-    path: 'photoframes',
-    component: PhotoFramesComponent,
-  },
+  
   {
     path: 'showpieces',
     component: ShowpiecesComponent,

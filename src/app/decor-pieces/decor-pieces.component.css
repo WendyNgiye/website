@@ -1,0 +1,89 @@
+.title {
+    color:white;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  .back {
+    background-image: url('../../assets/images/cool.jpeg');
+    margin-top: -1rem;
+}
+.product-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-card {
+    width: 15%; /* Increase the width for larger image display */
+    background-color:rgb(88, 88, 151);
+    border-radius: 8px;
+   
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s;
+    overflow: hidden; /* Prevent overflow of content */
+}
+
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-image {
+    max-width: 120%;
+    height: 100%;
+    border-radius: 5px;
+}
+.product-info h3 {
+    font-size: 1em; /* Reduce font size */
+    margin: 8px 0; /* Reduce spacing */
+}
+
+
+.description {
+    font-size: 0.9em; /* Reduce description font size */
+    margin-bottom: 5px; /* Reduce margin */
+    text-align: left; /* Align text to the left */
+    color:white;
+
+}
+
+.price-range {
+    font-size: 0.9em; /* Reduce font size */
+    font-weight: bold;
+    color:whitesmoke;
+}
+
+
+.masonjar{
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%; /* Make the image container square */
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px 8px 0 0;
+}
+
+.masonjar {
+    background-image: url('../../assets/images/masonjar.jpeg');
+}
+
+
+
+
+h3 {
+    color:whitesmoke;
+    font-style: italic;
+  }
+
+
+/* Responsive styling for smaller screens */
+@media screen and (max-width: 768px) {
+    .product-card {
+        width: 100%; /* Full width on smaller devices */
+    }
+}

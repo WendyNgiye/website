@@ -19,7 +19,7 @@ import { CandlesComponent } from './candles/candles.component';
 import { DecorativePillowsComponent } from './decorative-pillows/decorative-pillows.component';
 import { AirFreshenerComponent } from './air-freshener/air-freshener.component';
 import { ColorfulglasswareComponent } from './colorfulglassware/colorfulglassware.component';
-import { PhotoFramesComponent } from './photo-frames/photo-frames.component';
+
 import { CurtainsholderComponent } from './curtainsholder/curtainsholder.component';
 import { WallpapersComponent } from './wallpapers/wallpapers.component';
 import { GlassmarblesComponent } from './glassmarbles/glassmarbles.component';
@@ -45,7 +45,7 @@ import { ProductsComponent } from './products/products.component';
     DecorativePillowsComponent,
     AirFreshenerComponent,
     ColorfulglasswareComponent,
-    PhotoFramesComponent,
+   
     CurtainsholderComponent,
     WallpapersComponent,
     GlassmarblesComponent,
