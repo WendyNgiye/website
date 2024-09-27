@@ -1,0 +1,143 @@
+.back {
+    background-image: url('../../assets/images/four.jpeg');
+    margin-top: -1rem;
+    padding: 1rem; /* Add some padding for better visual spacing */
+}
+
+
+.title {
+    color: rgb(236, 9, 9);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.product-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-cardframed,
+.product-cardcanvas,
+.product-cardstickers,
+.product-cardmetal,
+.product-cardwood,
+.product-cardwooven,
+.product-cardphoto ,
+.product-carddecal{
+    width: 55%; /* Base width for larger screens */
+    border-radius: 8px;
+    background-color: #365150;    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    overflow: hidden; /* Prevent overflow of content */
+}
+
+.product-cardcanvas,
+.product-cardmetal,.product-cardwooven,.product-carddecal{
+    margin-left: auto; 
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-layout {
+    display: flex;
+    align-items: center; /* Center vertically */
+}
+
+.product-info {
+    flex: 1; /* Allow the text section to take available space */
+    text-align: left; /* Align text to the left */
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-info h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.description {
+    color:rgb(253, 243, 243);
+    margin-bottom: 8px;
+}
+
+.price-range {
+    font-weight: bold;
+    color: white;
+}
+
+.framed,
+.canvas,
+.stickers,
+.metal,.wood,.wooven,.photo,.decal {
+    width: 20rem; /* Fixed width for images */
+    height: 20rem; /* Fixed height for images */
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px; /* Add rounded corners to images */
+    margin: 0 10px; /* Add margin to separate image and text */
+}
+
+.framed {
+    background-image: url('../../assets/art/framed.jpeg');
+}
+
+.canvas {
+    background-image: url('../../assets/art/canvas.jpeg');
+}
+
+.stickers {
+    background-image: url('../../assets/art/sculptures.jpeg');
+}
+
+.metal {
+    background-image: url('../../assets/art/metal.jpeg');
+}
+.wood{
+    background-image: url('../../assets/art/wood.jpeg');
+}
+.wooven {
+    background-image: url('../../assets/art/wooven.jpeg');
+}
+.photo {
+    background-image: url('../../assets/art/photo.jpeg');
+}
+.decal {
+    background-image: url('../../assets/art/decals.jpeg');
+}
+h3 {
+    color:whitesmoke;
+    font-style: italic;
+}
+
+/* Responsive styling for smaller screens */
+@media screen and (max-width: 768px) {
+    .product-card {
+        flex-direction: column; /* Stacks items vertically on mobile */
+        gap: 10px; /* Adjust gap */
+               
+    }
+    .product-layout {
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-start; /* Align items to start */
+        
+    }
+
+.framed,.canvas,.stickers,.metal,.wood,.wooven,.photo,.decal {
+        flex-direction: column; /* Stacks items vertically on mobile */
+        gap: 10px; /* Adjust gap */
+        width: 15rem; /* Make images responsive */
+        height: 15rem; /* Auto height for mobile */
+    }
+   
+}

@@ -24,11 +24,11 @@
 .product-cardtwo,
 .product-cardthree,
 .product-cardfour {
-    width: 70%; /* Base width for larger screens */
+    width: 55%; /* Base width for larger screens */
     border-radius: 8px;
-    background-color:burlywood;
+    background-color:rgb(228, 160, 70);
     padding: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
     transition: transform 0.3s;
     overflow: hidden; /* Prevent overflow of content */
 }
@@ -64,7 +64,7 @@
 }
 
 .description {
-    color: #555;
+    color:black;
     margin-bottom: 8px;
 }
 
@@ -78,7 +78,7 @@
 .round,
 .fireplace {
     width: 25rem; /* Fixed width for images */
-    height: 30rem; /* Fixed height for images */
+    height: 25rem; /* Fixed height for images */
     background-size: cover;
     background-position: center;
     border-radius: 8px; /* Add rounded corners to images */
