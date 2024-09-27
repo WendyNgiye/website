@@ -135,8 +135,12 @@ h3 {
 .framed,.canvas,.stickers,.metal,.wood,.wooven,.photo,.decal {
         flex-direction: column; /* Stacks items vertically on mobile */
         gap: 10px; /* Adjust gap */
-        width: 15rem; /* Make images responsive */
-        height: 15rem; /* Auto height for mobile */
+        
+        width: 11rem; /* Make images responsive */
+        height: 18rem; /* Auto height for mobile */
+       object-fit: cover;
+       background-position: center;
+       background-size: cover;
     }
    
 }

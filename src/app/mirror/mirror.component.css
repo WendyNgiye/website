@@ -122,8 +122,12 @@ h3 {
     .one, .two, .round, .fireplace {
         flex-direction: column; /* Stacks items vertically on mobile */
         gap: 10px; /* Adjust gap */
-        width: 14rem; /* Make images responsive */
+        width: 10rem; /* Make images responsive */
         height: 18rem; /* Auto height for mobile */
+       object-fit: cover;
+       background-position: center;
+       background-size: cover;
+        
     }
    
 }
