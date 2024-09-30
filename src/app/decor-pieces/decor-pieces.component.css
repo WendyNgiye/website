@@ -6,7 +6,7 @@
     margin-top: 1rem;
   }
   .back {
-    background-image: url('../../assets/images/cool.jpeg');
+    background-image: url('../../assets/images/green.jpeg');
     margin-top: -1rem;
 }
 .product-section {
@@ -19,7 +19,7 @@
 
 .product-card {
     width: 15%; /* Increase the width for larger image display */
-    background-color:rgb(88, 88, 151);
+    background-color:white;
     border-radius: 8px;
    
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -48,18 +48,19 @@
     font-size: 0.9em; /* Reduce description font size */
     margin-bottom: 5px; /* Reduce margin */
     text-align: left; /* Align text to the left */
-    color:white;
+    color:black;
 
 }
 
 .price-range {
     font-size: 0.9em; /* Reduce font size */
     font-weight: bold;
-    color:whitesmoke;
+    color:red;
 }
 
 
-.masonjar{
+.vases,.baskets,.books ,.bookend,.bowl,.art,.box,.sculpture ,.frames,.magazine,.hourglass
+,.candleholder,.rocks,.glassdome,.tray,.pouf,.throw,.mementos,.greenary,.tome{
     width: 100%;
     height: 0;
     padding-bottom: 100%; /* Make the image container square */
@@ -68,15 +69,69 @@
     border-radius: 8px 8px 0 0;
 }
 
-.masonjar {
-    background-image: url('../../assets/images/masonjar.jpeg');
+.vases {
+    background-image: url('../../assets/decopieces/vasesmall.jpeg');
+}
+.baskets {
+    background-image: url('../../assets/decopieces/baskets.jpeg');
+}
+.books  {
+    background-image: url('../../assets/decopieces/books.jpeg');
+}
+.bookend {
+    background-image: url('../../assets/decopieces/bookend.jpeg');
+}
+.bowl {
+    background-image: url('../../assets/decopieces/bowl.jpeg');
+}
+.art {
+    background-image: url('../../assets/decopieces/artwork.jpeg');
+}
+.box {
+    background-image: url('../../assets/decopieces/boxes.jpeg');
+}
+.sculpture  {
+    background-image: url('../../assets/decopieces/sculpure.jpeg');
+}
+.frames {
+    background-image: url('../../assets/decopieces/frames.jpeg');
+}
+.magazine {
+    background-image: url('../../assets/decopieces/magazine.jpeg');
+}
+.hourglass {
+    background-image: url('../../assets/decopieces/hrglass.jpeg');
+}
+
+.candleholder {
+    background-image: url('../../assets/decopieces/candleholder.jpeg');
+}.rocks {
+    background-image: url('../../assets/decopieces/rocks.jpeg');
+}.glassdome {
+    background-image: url('../../assets/decopieces/glassdome.jpeg');
+}.tray {
+    background-image: url('../../assets/decopieces/tray.jpeg');
+}.pouf {
+    background-image: url('../../assets/decopieces/pouf.jpeg');
+}
+.throw {
+    background-image: url('../../assets/decopieces/cozythrow.jpeg');
+}
+.mementos  {
+    background-image: url('../../assets/decopieces/mementos.jpeg');
+}
+.greenary {
+    background-image: url('../../assets/decopieces/greenary.jpeg');
+}
+.tome {
+    background-image: url('../../assets/decopieces/tome.jpeg');
 }
 
 
 
 
 h3 {
-    color:whitesmoke;
+    color:blue;
     font-style: italic;
   }
 
