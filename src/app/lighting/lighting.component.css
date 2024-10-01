@@ -21,17 +21,18 @@
 }
 
 .product-card,.product-cardtwo{
-    width: 55%; /* Base width for larger screens */
+    width: 65%; /* Base width for larger screens */
     border-radius: 8px;
-    background-color: #5d7070;    padding: 10px;
+    background-color: white;   
+     padding: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
     overflow: hidden; /* Prevent overflow of content */
     flex: 1 1 45%; /* Each card will take up 45% of the width */
-    margin: 10px; /* Add some margin for spacing */
+  
 }
 
-.product-cartwo{
+.product-cardtwo{
     margin-left: auto; 
 }
 
@@ -61,56 +62,92 @@
 }
 
 .description {
-    color:rgb(253, 243, 243);
+    color:black;
     margin-bottom: 8px;
 }
 
 .price-range {
     font-weight: bold;
-    color: white;
+    color: red;
 }
 
-.ambient,.kitchen,.bathroom,.study,.garden
-.accent,.bedroom,.dining,.kids,.corners
-.track,.pendant,.industrial,.foyer,.living
-.Chandeliers,.wallmounted,.recessed,.cove,.task {
+.ambient,.kitchen,.bathroom,.study,.garden,.bedroom,.dining,.kids,.corners,
+.track,.pendant,.industrial,.foyer,.living,
+.Chandeliers,.wallmounted,.recessed,.cove,.task,.account {
     width: 20rem; /* Fixed width for images */
-    height: 15rem; /* Fixed height for images */
+    height: 20rem; /* Fixed height for images */
     background-size: cover;
     background-position: center;
     border-radius: 8px; /* Add rounded corners to images */
     margin: 0 10px; /* Add margin to separate image and text */
 }
 
-.framed {
-    background-image: url('../../assets/art/framed.jpeg');
+.ambient {
+    background-image: url('../../assets/lighting/ambient.jpeg');
 }
 
-.canvas {
-    background-image: url('../../assets/art/canvas.jpeg');
+.account{
+    background-image: url('../../assets/lighting/accentlight.jpeg');
 }
 
-.stickers {
-    background-image: url('../../assets/art/sculptures.jpeg');
+.kitchen{
+    background-image: url('../../assets/lighting/kitchen.jpeg');
+}
+.bathroom{
+    background-image: url('../../assets/lighting/bathroom.jpeg');
+}
+.study{
+    background-image: url('../../assets/lighting/studyroom.jpeg');
+}
+.garden {
+    background-image: url('../../assets/lighting/balcony.jpeg');
+}
+.bedroom{
+    background-image: url('../../assets/lighting/bedroom.jpeg');
+}
+.dining{
+    background-image: url('../../assets/lighting/dinning.jpeg');
+}
+.kids{
+    background-image: url('../../assets/lighting/kids.jpeg');
+}
+.corners{
+    background-image: url('../../assets/lighting/corners.jpeg');
+}
+.track{
+    background-image: url('../../assets/lighting/track.jpeg');
+}
+.pendant{
+    background-image: url('../../assets/lighting/PendantLights.jpeg');
+}
+.industrial{
+    background-image: url('../../assets/lighting/industrial.jpeg');
+}
+.foyer{
+    background-image: url('../../assets/lighting/foyer.jpeg');
+}
+.living{
+    background-image: url('../../assets/lighting/livingroom.jpeg');
+}
+.Chandeliers{
+    background-image: url('../../assets/lighting/Chandeliers.jpeg');
+}
+.wallmounted{
+    background-image: url('../../assets/lighting/wallmounted.jpeg');
+}
+.recessed{
+    background-image: url('../../assets/lighting/recessed.jpeg');
+}
+.cove{
+    background-image: url('../../assets/lighting/CoveLights.jpeg');
+}
+.task
+{
+    background-image: url('../../assets/lighting/TaskLighting.jpeg');
 }
 
-.metal {
-    background-image: url('../../assets/art/metal.jpeg');
-}
-.wood{
-    background-image: url('../../assets/art/wood.jpeg');
-}
-.wooven {
-    background-image: url('../../assets/art/wooven.jpeg');
-}
-.photo {
-    background-image: url('../../assets/art/photo.jpeg');
-}
-.decal {
-    background-image: url('../../assets/art/decals.jpeg');
-}
 h3 {
-    color:black;
+    color:blue;
 }
 
 /* Responsive styling for smaller screens */
@@ -126,7 +163,10 @@ h3 {
         
     }
 
-.framed,.canvas,.stickers,.metal,.wood,.wooven,.photo,.decal {
+    .ambient,.kitchen,.bathroom,.study,.garden
+    .accent,.bedroom,.dining,.kids,.corners
+    .track,.pendant,.industrial,.foyer,.living
+    .Chandeliers,.wallmounted,.recessed,.cove,.task  {
         flex-direction: column; /* Stacks items vertically on mobile */
         gap: 10px; /* Adjust gap */
         
