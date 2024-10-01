@@ -20,10 +20,9 @@
     padding: 20px;
 }
 
-.product-cardone,
-.product-cardtwo,
-.product-cardthree,
-.product-cardfour {
+.product-card,
+.product-cardtwo
+{
     width: 55%; /* Base width for larger screens */
     border-radius: 8px;
     background-color:rgb(228, 160, 70);
@@ -33,8 +32,8 @@
     overflow: hidden; /* Prevent overflow of content */
 }
 
-.product-cardtwo,
-.product-cardfour {
+.product-cardtwo
+ {
     margin-left: auto; /* Align cards two and four to the right */
 }
 

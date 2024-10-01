@@ -20,14 +20,7 @@
     padding: 20px;
 }
 
-.product-cardframed,
-.product-cardcanvas,
-.product-cardstickers,
-.product-cardmetal,
-.product-cardwood,
-.product-cardwooven,
-.product-cardphoto ,
-.product-carddecal{
+.product-card,.product-cardtwo{
     width: 55%; /* Base width for larger screens */
     border-radius: 8px;
     background-color: #5d7070;    padding: 10px;
@@ -36,8 +29,7 @@
     overflow: hidden; /* Prevent overflow of content */
 }
 
-.product-cardcanvas,
-.product-cardmetal,.product-cardwooven,.product-carddecal{
+.product-cardtwo{
     margin-left: auto; 
 }
 
