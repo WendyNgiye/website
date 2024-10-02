@@ -1,0 +1,104 @@
+.back {
+    background-image: url('../../assets/images/flowers.jpeg');
+    margin-top: -1rem;
+}
+
+.title {
+    color:whitesmoke;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+.product-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-card {
+    width: 30%;
+    border: 1px solid #ddd;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s;
+    overflow: hidden; /* Prevent overflow of content */
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-info h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.description {
+    color: #555;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.price-range {
+    font-weight: bold;
+    color:red;
+}
+
+.hallway,.dining,.bedroom,.livingroom,.restroom,.balcony
+{
+    width: 100%;
+    height: 0;
+    padding-bottom: 75%; /* Aspect ratio to maintain image proportions (4:3) */
+    background-size: cover;
+    background-position: center;  
+    border-radius: 8px 8px 0 0; /* Add rounded corners to top of the card */
+}
+
+.hallway{
+    background-image: url('../../assets/greenery/hallways.jpeg');
+}
+.dining {
+    background-image: url('../../assets/greenery/dinintable.jpeg');
+}
+.bedroom{
+    background-image: url('../../assets/greenery/bedside.jpeg');
+
+}.livingroom {
+    background-image: url('../../assets/greenery/lining.jpeg');
+
+}
+.restroom {
+    background-image: url('../../assets/greenery/restroom.jpeg');
+
+
+}.balcony {
+    background-image: url('../../assets/greenery/balc.jpeg');
+}
+
+
+
+
+h3 {
+    color:blue;
+    font-style: italic;
+  }
+
+
+/* Responsive styling for smaller screens */
+@media screen and (max-width: 768px) {
+    .product-card {
+        width: 100%; /* Full width on smaller devices */
+    }
+}

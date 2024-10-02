@@ -1,12 +1,12 @@
 .back {
-    background-image: url('../../assets/images/backgroundone.jpeg');
+    background-image: url('../../assets/images/lighting.jpeg');
     margin-top: -1rem;
     padding: 1rem; /* Add some padding for better visual spacing */
 }
 
 
 .title {
-    color: rgb(236, 9, 9);
+    color: whitesmoke;
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
@@ -59,6 +59,9 @@
 .product-info h3 {
     font-size: 1.2em;
     margin: 10px 0;
+   color:blue;
+  
+    
 }
 
 .description {
@@ -146,9 +149,6 @@
     background-image: url('../../assets/lighting/TaskLighting.jpeg');
 }
 
-h3 {
-    color:blue;
-}
 
 /* Responsive styling for smaller screens */
 @media screen and (max-width: 768px) {
@@ -163,9 +163,9 @@ h3 {
         
     }
 
-    .ambient,.kitchen,.bathroom,.study,.garden
-    .accent,.bedroom,.dining,.kids,.corners
-    .track,.pendant,.industrial,.foyer,.living
+    .ambient,.kitchen,.bathroom,.study,.garden,
+    .account,.bedroom,.dining,.kids,.corners,
+    .track,.pendant,.industrial,.foyer,.living,
     .Chandeliers,.wallmounted,.recessed,.cove,.task  {
         flex-direction: column; /* Stacks items vertically on mobile */
         gap: 10px; /* Adjust gap */
