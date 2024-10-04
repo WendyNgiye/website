@@ -1,0 +1,123 @@
+.back {
+   background-color: white;
+    margin-top: -1rem;
+    
+        }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+.product-type {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    align-items: center;
+}
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background-color: rgb(161, 145, 134);}
+
+.product-image {
+    flex: 1;
+    text-align: center;
+}
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.essential,.reed,.aerosal{
+    width: 100%;
+    height: 0;
+    padding-bottom: 75%; /* Aspect ratio to maintain image proportions (4:3) */
+    background-size: cover;
+    background-position: center;  
+    border-radius: 8px 8px 0 0; /* Add rounded corners to top of the card */
+}
+.essential{
+    background-image: url('../../assets/air/essentialoils.jpeg');}
+.reed{
+    background-image: url('../../assets/air/reed.jpeg');}
+.aerosal{
+    background-image: url('../../assets/air/aerosial.jpeg');}
+
+
+.product-description {
+    flex: 2;
+    padding: 20px;
+}
+h2 {
+    color: black;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.price-range {
+    font-weight: bold;
+    color: whitesmoke;
+}
+h3 {
+    color: blue;
+}
+p {
+    color: black;
+    line-height: 1.6;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .product-type {
+        flex-direction: column; /* Stacks items vertically on mobile */
+        gap: 10px; /* Adjust gap */
+    }
+ 
+    .product-image, .product-description {
+        flex-direction: column; /* Stacks items vertically on mobile */
+        gap: 10px; /* Adjust gap */
+    }
+ 
+    .product-description {
+       padding: 10px; /* Adjust padding to fit smaller screens */
+    }
+    .essential,.reed,.aerosal {
+        flex-direction: column; /* Stacks items vertically on mobile */
+        gap: 10px; /* Adjust gap */
+        width: 19rem; /* Make images responsive */
+        height: 7rem; /* Auto height for mobile */
+       object-fit: cover;
+       background-position: center;
+       background-size: cover;
+        
+    }
+ }
+ 
+ @media (max-width: 576px) {
+    body {
+       margin: 10px;
+    }
+ 
+    .container {
+       padding: 10px;
+    }
+ 
+    h2 {
+       font-size: 1.5rem; /* Smaller font for titles */
+    }
+ 
+    h3 {
+       font-size: 1.2rem; /* Adjust heading size */
+    }
+ 
+    p {
+       font-size: 1rem; /* Adjust paragraph size */
+    }
+ }
