@@ -21,7 +21,7 @@
 }
 
 .product-card,.product-cardtwo{
-    width: 65%; /* Base width for larger screens */
+    width: 60%; /* Base width for larger screens */
     border-radius: 8px;
     background-color: white;   
      padding: 10px;
@@ -168,8 +168,7 @@
     .track,.pendant,.industrial,.foyer,.living,
     .Chandeliers,.wallmounted,.recessed,.cove,.task  {
         flex-direction: column; /* Stacks items vertically on mobile */
-        gap: 10px; /* Adjust gap */
-        
+        gap: 5px; /* Adjust gap */
         width: 11rem; /* Make images responsive */
         height: 18rem; /* Auto height for mobile */
        object-fit: cover;
@@ -178,3 +177,20 @@
     }
    
 }
+.button {
+    background-color:rgba(13, 13, 158, 0.932); /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding around the text */
+    border: none; /* Remove borders */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer/hand icon on hover */
+    font-size: 16px; /* Increase font size */
+    font-weight: bold; /* Make the text bold */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+  }
+  
+  .button:hover {
+    background-color: #808880; /* Darker green on hover */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add subtle shadow on hover */
+  }
+  
