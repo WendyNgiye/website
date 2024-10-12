@@ -1,5 +1,5 @@
 .back {
-    background-image: url('../../assets/images/backgroundone.jpeg');
+    background-image: url('../../assets/curtains/curtain.jpeg');
     margin-top: -1rem;
 }
 
@@ -65,38 +65,36 @@
     border-radius: 8px 8px 0 0; /* Add rounded corners to top of the card */
 }
 .blackout{
-    background-image: url('../../assets/images/mat.jpeg');}
+    background-image: url('../../assets/curtains/blackouturtains.jpeg');}
 .tiebacks{
-    background-image: url('../../assets/images/mat.jpeg');}
+    background-image: url('../../assets/curtains/tiebaks.jpeg');}
     
 .single {
-    background-image: url('../../assets/images/mat.jpeg');}
+    background-image: url('../../assets/curtains/singlepanel.jpeg');}
 .double {
-    background-image: url('../../assets/images/mat.jpeg');}
+    background-image: url('../../assets/curtains/double\ panel.jpeg');}
 .pinch{
-    background-image: url('../../assets/images/mat.jpeg');}
+    background-image: url('../../assets/curtains/pleated.jpeg');}
 .cafe {
-    background-image: url('../../assets/images/mat.jpeg');}
+    background-image: url('../../assets/curtains/cafe.jpeg');}
 .floor{
-    background-image: url('../../assets/images/mat.jpeg');}
+    background-image: url('../../assets/curtains/floorcurt.jpeg');}
 .apron {
-    background-image: url('../../assets/images/mat.jpeg');}
+    background-image: url('../../assets/curtains/apronlength.jpeg');}
 .puddle{
-    background-image: url('../../assets/images/mat.jpeg');}
+    background-image: url('../../assets/curtains/paddled.jpeg');}
 .light{
-    background-image: url('../../assets/images/mat.jpeg');}
+    background-image: url('../../assets/curtains/light.jpeg');}
 .window{
-    background-image: url('../../assets/images/mat.jpeg');}
+    background-image: url('../../assets/curtains/scarfcurtain.jpeg');}
 .ripple{
-    background-image: url('../../assets/images/mat.jpeg');}
+    background-image: url('../../assets/curtains/ripplefold.jpeg');}
 .rod{
-    background-image: url('../../assets/images/mat.jpeg');}
+    background-image: url('../../assets/curtains/rod.jpeg');}
 .tab{
-    background-image: url('../../assets/images/mat.jpeg');}
+    background-image: url('../../assets/curtains/tab\ rod.jpeg');}
 .grommet{
-    background-image: url('../../assets/images/mat.jpeg');
- 
-}
+    background-image: url('../../assets/curtains/grommet.jpeg');}
 
 
 
