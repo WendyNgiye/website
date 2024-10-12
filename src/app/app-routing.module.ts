@@ -22,6 +22,15 @@ import { VasesComponent } from './vases/vases.component';
 import { WallArtComponent } from './wall-art/wall-art.component';
 import { WallpapersComponent } from './wallpapers/wallpapers.component';
 import { ProductsComponent } from './products/products.component';
+import { BalconyinteriorComponent } from './balconyinterior/balconyinterior.component';
+import { BathroominteriorComponent } from './bathroominterior/bathroominterior.component';
+import { BedroominteriorComponent } from './bedroominterior/bedroominterior.component';
+import { ClosetinteriorComponent } from './closetinterior/closetinterior.component';
+import { CommercialinteriorComponent } from './commercialinterior/commercialinterior.component';
+import { DininginteriorComponent } from './dininginterior/dininginterior.component';
+import { KitcheninteriorComponent } from './kitcheninterior/kitcheninterior.component';
+import { SittingroomComponent } from './sittingroom/sittingroom.component';
+import { OutdoorinteriorComponent } from './outdoorinterior/outdoorinterior.component';
 
 
 const routes: Routes = [
@@ -111,6 +120,42 @@ const routes: Routes = [
   {
     path: 'wallpapers',
     component: WallpapersComponent,
+  },
+  {
+    path: 'balcony',
+    component: BalconyinteriorComponent,
+  },
+  {
+    path: 'bathroom',
+    component: BathroominteriorComponent,
+  },
+  {
+    path: 'bedroom',
+    component: BedroominteriorComponent,
+  },
+  {
+    path: 'closet',
+    component: ClosetinteriorComponent,
+  },
+  {
+    path: 'commercial',
+    component: CommercialinteriorComponent,
+  },
+  {
+    path: 'dining',
+    component: DininginteriorComponent,
+  },
+  {
+    path: 'kitchen',
+    component: KitcheninteriorComponent,
+  },
+  {
+    path: 'sittingroom',
+    component: SittingroomComponent,
+  },
+  {
+    path: 'outdoor',
+    component: OutdoorinteriorComponent,
   },
 ];
 

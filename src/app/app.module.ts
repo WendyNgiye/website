@@ -25,6 +25,15 @@ import { WallpapersComponent } from './wallpapers/wallpapers.component';
 import { GlassmarblesComponent } from './glassmarbles/glassmarbles.component';
 import { ShowpiecesComponent } from './showpieces/showpieces.component';
 import { ProductsComponent } from './products/products.component';
+import { SittingroomComponent } from './sittingroom/sittingroom.component';
+import { BalconyinteriorComponent } from './balconyinterior/balconyinterior.component';
+import { OutdoorinteriorComponent } from './outdoorinterior/outdoorinterior.component';
+import { BedroominteriorComponent } from './bedroominterior/bedroominterior.component';
+import { BathroominteriorComponent } from './bathroominterior/bathroominterior.component';
+import { CommercialinteriorComponent } from './commercialinterior/commercialinterior.component';
+import { KitcheninteriorComponent } from './kitcheninterior/kitcheninterior.component';
+import { DininginteriorComponent } from './dininginterior/dininginterior.component';
+import { ClosetinteriorComponent } from './closetinterior/closetinterior.component';
 
 @NgModule({
   declarations: [
@@ -51,6 +60,15 @@ import { ProductsComponent } from './products/products.component';
     GlassmarblesComponent,
     ShowpiecesComponent,
     ProductsComponent,
+    SittingroomComponent,
+    BalconyinteriorComponent,
+    OutdoorinteriorComponent,
+    BedroominteriorComponent,
+    BathroominteriorComponent,
+    CommercialinteriorComponent,
+    KitcheninteriorComponent,
+    DininginteriorComponent,
+    ClosetinteriorComponent,
   
   ],
   imports: [
