@@ -16,8 +16,8 @@
 .product-section {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    padding: 20px;
+    gap: 10px;
+    padding: 5px;
 }
 
 .product-card,.product-cardtwo{

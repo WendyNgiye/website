@@ -1,5 +1,5 @@
 .back {
-    background-image: url('../../assets/images/flowers.jpeg');
+    background-image: url('../../assets/vasefillers/silver.jpeg');
     margin-top: -1rem;
 }
 
@@ -15,8 +15,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 20px;
-    padding: 20px;
+    gap: 10px;
+    padding: 5px;
 }
 
 .product-card {
@@ -104,7 +104,7 @@ h3 {
     }
 }
 .button {
-    background-color:rgba(92, 92, 177, 0.932); /* Green background */
+    background-color:rgba(20, 20, 175, 0.932); /* Green background */
     color: white; /* White text */
     padding: 10px 20px; /* Padding around the text */
     border: none; /* Remove borders */
