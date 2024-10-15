@@ -1,0 +1,127 @@
+.title {
+    color:white;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+.back {
+    background-color: #796b6b;
+    margin-top: -1rem;
+}
+.product-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 5px;
+}
+
+.product-card {
+    width: 15%; /* Increase the width for larger image display */
+    background-color: white;
+    border-radius: 8px;
+   
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s;
+    overflow: hidden; /* Prevent overflow of content */
+}
+
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-image {
+    max-width: 120%;
+    height: 100%;
+    border-radius: 5px;
+}
+.product-info h3 {
+    font-size: 1em; /* Reduce font size */
+    margin: 8px 0; /* Reduce spacing */
+}
+
+
+.sofa,.coffeetable,.accentchair,.entertainment,.bookshelf,.sidetable,.ottoman,.florrlamp,.arearug,.consoletable
+,.tablestand,.dinningtable {
+  width: 100%;
+    height: 0;
+    padding-bottom: 100%; /* Make the image container square */
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px 8px 0 0;
+}
+
+.sofa{
+    background-image: url('../../assets/sittingroom/Seater\ Sofa.jpeg');
+}
+.coffeetable{
+    background-image: url('../../assets/sittingroom/coffeetable.jpeg');
+}
+.accentchair{
+    background-image: url('../../assets/sittingroom/accent.jpeg');
+}
+.entertainment{
+    background-image: url('../../assets/sittingroom/entertainment.jpeg');
+}
+.bookshelf{
+    background-image: url('../../assets/sittingroom/bookshelf.jpeg');
+}
+.sidetable{
+    background-image: url('../../assets/sittingroom/sidetable.jpeg');
+}
+.ottoman{
+    background-image: url('../../assets/sittingroom/Ottoman.jpeg');
+}
+.florrlamp{
+    background-image: url('../../assets/sittingroom/floorlamp.jpeg');
+}
+.arearug{
+    background-image: url('../../assets/sittingroom/arearug.jpeg');
+}
+.consoletable{
+    background-image: url('../../assets/sittingroom/consoletable.jpeg');
+}
+
+.tablestand{
+    background-image: url('../../assets/sittingroom/tvstand.jpeg');
+}
+.dinningtable {
+    background-image: url('../../assets/sittingroom/dinnertable.jpeg');
+}
+
+
+
+
+
+h3 {
+    color:blue;
+    font-style: italic;
+  }
+
+
+/* Responsive styling for smaller screens */
+@media screen and (max-width: 768px) {
+    .product-card {
+        width: 100%; /* Full width on smaller devices */
+    }
+}
+.button {
+    background-color:rgba(15, 15, 146, 0.932); /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding around the text */
+    border: none; /* Remove borders */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer/hand icon on hover */
+    font-size: 16px; /* Increase font size */
+    font-weight: bold; /* Make the text bold */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+  }
+  
+  .button:hover {
+    background-color: #808880; /* Darker green on hover */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add subtle shadow on hover */
+  }
+  
