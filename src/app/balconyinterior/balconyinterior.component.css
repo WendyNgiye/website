@@ -1,3 +1,184 @@
+.back {
+    background-image: url('../../assets/images/lighting.jpeg');
+    margin-top: -1rem;
+    padding: 1rem; /* Add some padding for better visual spacing */
+}
+
+
+.title {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.product-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  padding: 5px;
+}
+
+.product-card,.product-cardtwo{
+    width: 50%; /* Base width for larger screens */
+    border-radius: 8px;
+    background-color: white;   
+     padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    overflow: hidden; /* Prevent overflow of content */
+    flex: 1 1 45%; /* Each card will take up 45% of the width */
+  
+}
+
+.product-cardtwo{
+    margin-left: auto; 
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-layout {
+    display: flex;
+    align-items: center; /* Center vertically */
+}
+
+.product-info {
+    flex: 1; /* Allow the text section to take available space */
+    text-align: left; /* Align text to the left */
+}
+
+.product-image {
+    max-width: 120%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-info h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+   color:blue;
+  
+    
+}
+
+.description {
+    color:black;
+    margin-bottom: 8px;
+}
+
+.price-range {
+    font-weight: bold;
+    color: red;
+}
+
+.ambient,.kitchen,.bathroom,.study,.garden,.bedroom,.dining,.kids,.corners,
+.track,.pendant,.industrial,.foyer,.living,
+.Chandeliers,.wallmounted,.recessed,.cove,.task,.account {
+    width: 20rem; /* Fixed width for images */
+    height: 20rem; /* Fixed height for images */
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px; /* Add rounded corners to images */
+    margin: 0 10px; /* Add margin to separate image and text */
+}
+
+.ambient {
+    background-image: url('../../assets/projects/gogreen.png');
+}
+
+.account{
+    background-image: url('../../assets/projects/gogreen.png');
+}
+
+.kitchen{
+    background-image: url('../../assets/projects/gogreen.png');
+}
+.bathroom{
+    background-image: url('../../assets/projects/gogreen.png');
+}
+.study{
+    background-image: url('../../assets/projects/gogreen.png');
+}
+.garden {
+    background-image: url('../../assets/projects/gogreen.png');
+}
+.bedroom{
+    background-image: url('../../assets/projects/gogreen.png');
+}
+.dining{
+    background-image: url('../../assets/projects/gogreen.png');
+}
+.kids{
+    background-image: url('../../assets/projects/gogreen.png');
+}
+.corners{
+    background-image: url('../../assets/projects/gogreen.png');
+}
+.track{
+    background-image: url('../../assets/projects/gogreen.png');
+}
+.pendant{
+    background-image: url('../../assets/projects/gogreen.png');
+}
+.industrial{
+    background-image: url('../../assets/projects/gogreen.png');
+}
+.foyer{
+    background-image: url('../../assets/projects/gogreen.png');
+}
+.living{
+    background-image: url('../../assets/projects/gogreen.png');
+}
+.Chandeliers{
+    background-image: url('../../assets/projects/gogreen.png');
+}
+.wallmounted{
+    background-image: url('../../assets/projects/gogreen.png');
+}
+.recessed{
+    background-image: url('../../assets/projects/gogreen.png');
+}
+.cove{
+    background-image: url('../../assets/projects/gogreen.png');
+}
+.task
+{
+    background-image: url('../../assets/projects/gogreen.png');
+}
+
+
+/* Responsive styling for smaller screens */
+@media screen and (max-width: 768px) {
+    .product-card {
+        flex-direction: column; /* Stacks items vertically on mobile */
+        gap: 10px; /* Adjust gap */
+               
+    }
+    .product-layout {
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-start; /* Align items to start */
+        
+    }
+
+    .ambient,.kitchen,.bathroom,.study,.garden,
+    .account,.bedroom,.dining,.kids,.corners,
+    .track,.pendant,.industrial,.foyer,.living,
+    .Chandeliers,.wallmounted,.recessed,.cove,.task  {
+        flex-direction: column; /* Stacks items vertically on mobile */
+        gap: 5px; /* Adjust gap */
+        width: 11rem; /* Make images responsive */
+        height: 18rem; /* Auto height for mobile */
+       object-fit: cover;
+       background-position: center;
+       background-size: cover;
+    }
+   
+}
+
+
 .button {
     background-color:rgba(15, 15, 146, 0.932); 
     padding: 10px 20px; 
