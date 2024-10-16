@@ -49,8 +49,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 20px;
-  margin-top: 20px;
+  gap: 10px;
+  margin-top: 5px;
 }
 
 .product-item {
@@ -63,8 +63,9 @@
 
 .productone, .producttwo, .productthree,.productfour, 
 .productfive, .productsix, .productseven, .producteight ,.closet{
-  width: 100%;
-  height: auto;
+  
+  width: 19rem;
+  height: 19rem;
   background-size: cover;
   background-position: center;
 }
@@ -80,17 +81,17 @@
   background-image: url('../../assets/images/outdoorpatio.jpeg');
 }
 .productfour {
-  background-image: url('../../assets/images/bedroom.jpeg');
+  background-image: url('../../assets/images/bedso.jpeg');
 }
 
 .productfive {
-  background-image: url('../../assets/images/bathroom.jpeg');
+  background-image: url('../../assets/images/bath.jpeg');
 }
 .productsix {
   background-image: url('../../assets/images/Commercial.jpeg');
 }
 .productseven {
-  background-image: url('../../assets/images/kitchen.jpeg');
+  background-image: url('../../assets/images/kitch.jpeg');
 }
 .producteight {
   background-image: url('../../assets/images/diningtable.jpeg');
