@@ -138,7 +138,7 @@
         
     }
 
-    .gogreen,.sette ,.rag,.maximize,.swing,.clorinspo,.awning,.vibrant,.pillows,.railings,.faux,.firepit,.walldeco {
+    .gogreen,.sette ,.rag,.maximize,.swing,.colorinspo,.awning,.vibrant,.pillows,.railings,.faux,.firepit,.walldeco {
         flex-direction: column; /* Stacks items vertically on mobile */
         gap: 5px; /* Adjust gap */
         width: 11rem; /* Make images responsive */
