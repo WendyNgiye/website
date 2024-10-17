@@ -1,12 +1,12 @@
 .back {
-    background-image: url('../../assets/images/lighting.jpeg');
+    background-image: url('../../assets/images/four.jpeg');
     margin-top: -1rem;
     padding: 1rem; /* Add some padding for better visual spacing */
 }
 
 
 .title {
-    color: whitesmoke;
+    color: rgb(146, 41, 41);
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
@@ -23,7 +23,7 @@
 .product-card,.product-cardtwo{
     width: 50%; /* Base width for larger screens */
     border-radius: 8px;
-    background-color: white;   
+    background-color: #796b6b;
      padding: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
@@ -74,9 +74,7 @@
     color: red;
 }
 
-.ambient,.kitchen,.bathroom,.study,.garden,.bedroom,.dining,.kids,.corners,
-.track,.pendant,.industrial,.foyer,.living,
-.Chandeliers,.wallmounted,.recessed,.cove,.task,.account {
+.gogreen,.sette ,.rag,.maximize,.swing,.colorinspo,.awning,.vibrant,.pillows,.railings,.faux,.firepit,.walldeco{
     width: 20rem; /* Fixed width for images */
     height: 20rem; /* Fixed height for images */
     background-size: cover;
@@ -84,70 +82,47 @@
     border-radius: 8px; /* Add rounded corners to images */
     margin: 0 10px; /* Add margin to separate image and text */
 }
-
-.ambient {
+.gogreen{
     background-image: url('../../assets/projects/gogreen.png');
+}
+.sette {
+    background-image: url('../../assets/projects/sette.jpeg');
+}
+.rag{
+    background-image: url('../../assets/projects/ragdurable.png');
+}
+.maximize{
+    background-image: url('../../assets/projects/maximi.png');
+}
+.swing{
+    background-image: url('../../assets/projects/swing.png');
+}
+.colorinspo{
+    background-image: url('../../assets/projects/interior.png');
+}
+.awning{
+    background-image: url('../../assets/projects/awninnone.jpeg');
+}
+.vibrant {
+    background-image: url('../../assets/projects/vibrant.jpeg');
+}
+.pillows{
+    background-image: url('../../assets/projects/pillows.png');
+}
+.railings{
+    background-image: url('../../assets/projects/railing.jpeg');
+}
+.faux{
+    background-image: url('../../assets/projects/fauxone.jpeg');
+}
+.firepit{
+    background-image: url('../../assets/projects/firepit.jpeg');
+}
+.walldeco{
+    background-image: url('../../assets/projects/Wall\ decor.jpeg');
 }
 
-.account{
-    background-image: url('../../assets/projects/gogreen.png');
-}
 
-.kitchen{
-    background-image: url('../../assets/projects/gogreen.png');
-}
-.bathroom{
-    background-image: url('../../assets/projects/gogreen.png');
-}
-.study{
-    background-image: url('../../assets/projects/gogreen.png');
-}
-.garden {
-    background-image: url('../../assets/projects/gogreen.png');
-}
-.bedroom{
-    background-image: url('../../assets/projects/gogreen.png');
-}
-.dining{
-    background-image: url('../../assets/projects/gogreen.png');
-}
-.kids{
-    background-image: url('../../assets/projects/gogreen.png');
-}
-.corners{
-    background-image: url('../../assets/projects/gogreen.png');
-}
-.track{
-    background-image: url('../../assets/projects/gogreen.png');
-}
-.pendant{
-    background-image: url('../../assets/projects/gogreen.png');
-}
-.industrial{
-    background-image: url('../../assets/projects/gogreen.png');
-}
-.foyer{
-    background-image: url('../../assets/projects/gogreen.png');
-}
-.living{
-    background-image: url('../../assets/projects/gogreen.png');
-}
-.Chandeliers{
-    background-image: url('../../assets/projects/gogreen.png');
-}
-.wallmounted{
-    background-image: url('../../assets/projects/gogreen.png');
-}
-.recessed{
-    background-image: url('../../assets/projects/gogreen.png');
-}
-.cove{
-    background-image: url('../../assets/projects/gogreen.png');
-}
-.task
-{
-    background-image: url('../../assets/projects/gogreen.png');
-}
 
 
 /* Responsive styling for smaller screens */
@@ -163,10 +138,7 @@
         
     }
 
-    .ambient,.kitchen,.bathroom,.study,.garden,
-    .account,.bedroom,.dining,.kids,.corners,
-    .track,.pendant,.industrial,.foyer,.living,
-    .Chandeliers,.wallmounted,.recessed,.cove,.task  {
+    .gogreen,.sette ,.rag,.maximize,.swing,.clorinspo,.awning,.vibrant,.pillows,.railings,.faux,.firepit,.walldeco {
         flex-direction: column; /* Stacks items vertically on mobile */
         gap: 5px; /* Adjust gap */
         width: 11rem; /* Make images responsive */
