@@ -5,7 +5,9 @@
   margin: 0 auto; /* Center the section horizontally */
 }
 .background {
-  background-color: darkslategrey;
+  background-color: rgb(115, 139, 139);
+  margin-top: -1rem;
+
 }
 
 .title {
@@ -25,7 +27,7 @@
 }
 
 .product-card {
-  width: 25%; /* Increase the width for larger image display */
+  width: 29%; /* Increase the width for larger image display */
   background-color:white;
   border-radius: 8px;
  
@@ -68,7 +70,7 @@
 
 
 
-.scented ,.novelty ,.container ,.floating ,.tea ,.votive ,.pillar ,.taper,.flameless 
+.scented ,.novelity ,.container ,.floating ,.tea ,.votive ,.pillar ,.taper,.flameless 
 {
   width: 100%;
   height: 0;
@@ -84,7 +86,7 @@
 .scented {
  background-image: url('../../assets/candles/scented.png');
 }
-.novelty {
+.novelity {
  background-image: url('../../assets/candles/novelity.png');
 }
 .container {
