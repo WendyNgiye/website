@@ -1,6 +1,6 @@
 .back {
-    background-image: url('../../assets/images/four.jpeg');
-    margin-top: -1rem;
+    background-image: url('../../assets/images/green.jpeg');
+      margin-top: -1rem;
     padding: 1rem; /* Add some padding for better visual spacing */
 }/* Container for the slider */
 .closet-section {
@@ -8,19 +8,17 @@
     overflow: hidden; /* Hide overflow if necessary */
     margin-left: -1rem;
     height: 300px; /* Set the height of the slider */
-    animation: changeBackground 60s infinite; /* 60s total for 3 images, repeating infinitely */
+    animation: changeBackground 20s infinite; /* 60s total for 3 images, repeating infinitely */
 
 }
 
 @keyframes changeBackground {
-    0% { background-image: url('../../assets/images/homed (2).jpeg'); }
-    20% { background-image: url('../../assets/images/fireplace.jpeg'); } 
-    40% { background-image: url('../../assets/images/homedthree.jpeg'); } 
-    40% { background-image: url('../../assets/images/eleven.jpeg'); } 
-    100% { background-image: url('../../assets/images/homed (2).jpeg'); }
+    0% { background-image: url('../../assets/closetint/closet.png'); }
+    100% { background-image: url('../../assets/closetint/close.png'); } /* Second image */
+   
 }
 .title {
-    color: blue;
+    color:maroon;
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
@@ -34,9 +32,10 @@
 }
 
 .product-card,.product-cardtwo{
-    width: 55%; /* Base width for larger screens */
+    width: 52%; /* Base width for larger screens */
     border-radius: 8px;
-    background-color: #5d7070;    padding: 10px;
+    background-color: white;  
+      padding: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
     overflow: hidden; /* Prevent overflow of content */
@@ -73,19 +72,16 @@
 }
 
 .description {
-    color:rgb(253, 243, 243);
+    color:black;
     margin-bottom: 8px;
 }
-
-.price-range {
-    font-weight: bold;
-    color: white;
-}
-
-.framed,
-.canvas,
-.stickers,
-.metal,.wood,.wooven,.photo,.decal {
+.dresser,
+.shoerack,
+.lighting,
+.table,
+.baskets,
+.acceso,
+.standard{
     width: 20rem; /* Fixed width for images */
     height: 20rem; /* Fixed height for images */
     background-size: cover;
@@ -94,35 +90,30 @@
     margin: 0 10px; /* Add margin to separate image and text */
 }
 
-.framed {
-    background-image: url('../../assets/art/framed.jpeg');
-}
 
-.canvas {
-    background-image: url('../../assets/art/canvas.jpeg');
+.dresser {
+    background-image: url('../../assets/closetint/close.png');
 }
-
-.stickers {
-    background-image: url('../../assets/art/sculptures.jpeg');
+.shoerack{
+    background-image: url('../../assets/closetint/shoerack.png');
 }
-
-.metal {
-    background-image: url('../../assets/art/metal.jpeg');
+.lighting{
+    background-image: url('../../assets/closetint/baskets.png');
 }
-.wood{
-    background-image: url('../../assets/art/wood.jpeg');
+.table{
+    background-image: url('../../assets/closetint/baskets.png');
 }
-.wooven {
-    background-image: url('../../assets/art/wooven.jpeg');
+.baskets{
+    background-image: url('../../assets/closetint/baskets.png');
 }
-.photo {
-    background-image: url('../../assets/art/photo.jpeg');
+.acceso{
+    background-image: url('../../assets/closetint/accesories.png');
 }
-.decal {
-    background-image: url('../../assets/art/decals.jpeg');
+.standard{
+    background-image: url('../../assets/closetint/baskets.png');
 }
 h3 {
-    color:black;
+    color:maroon;
 }
 
 /* Responsive styling for smaller screens */

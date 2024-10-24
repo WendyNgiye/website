@@ -5,7 +5,7 @@
   overflow: hidden; /* Hide overflow if necessary */
  
   height: 300px; /* Set the height of the slider */
-  animation: changeBackground 60s infinite; /* 60s total for 3 images, repeating infinitely */
+  animation: changeBackground 20s infinite; /* 60s total for 3 images, repeating infinitely */
 
 }
 
@@ -136,6 +136,12 @@
   overflow: hidden;
   background-color: white;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: translateY(-50px); /* Move the card 20px upwards on hover */
+  z-index: 2; /* Bring the card on top of other content */
+  transition: transform 0.3s ease; /* Smooth transition for the hover effect */
 }
 
 .card-image {

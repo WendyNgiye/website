@@ -1,21 +1,21 @@
 .about-section {
     width: 100%; /* Ensure the section is full width */
     overflow: hidden; /* Hide overflow if necessary */
-   
-    height: 300px; /* Set the height of the slider */
-    animation: changeBackground 60s infinite; /* 60s total for 3 images, repeating infinitely */
+    height: 400px; /* Set the height of the slider */
+    animation: changeBackground 30s infinite; /* 60s total for 3 images, repeating infinitely */
 
 }
 
 @keyframes changeBackground {
-    0% { background-image: url('../../assets/images/homed (2).jpeg'); }
-    20% { background-image: url('../../assets/images/fireplace.jpeg'); } 
-    40% { background-image: url('../../assets/images/homedthree.jpeg'); } 
-    40% { background-image: url('../../assets/images/eleven.jpeg'); } 
-    100% { background-image: url('../../assets/images/homed (2).jpeg'); }
+    0% { background-image: url('../../assets/images/aboutus.jpeg'); }
+    40% { background-image: url('../../assets/images/home.png'); } /* Second image */
+    60% { background-image: url('../../assets/images/home.png'); } /* Second image */
+
+    100% { background-image: url('../../assets/images/cool.jpeg'); } /* Second image */
+
 }
 .title {
-    color: rgb(202, 202, 214);
+    color: maroon;
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
@@ -74,6 +74,7 @@ h2 {
     margin-bottom: 20px;
     color: goldenrod;
     text-align: center;
+    margin-top: -1rem;
 }
 
 .photo, .p {
@@ -81,7 +82,7 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 100%; /* Make the images round */
-    margin-top: -1rem;
+    margin-top: 0.5rem;
 }
 
 /* Background image for .photo */
@@ -96,7 +97,7 @@ h2 {
 .p {
     background-image: url('../../assets/images/three.jpeg');
     width: 40rem; 
-    height: 22rem; 
+    height: 20rem; 
     margin-left: auto; /* Pushes the second photo to the far right */
     margin-top: -5rem; /* Adjust this to control vertical position */
 }
@@ -120,7 +121,8 @@ button:hover {
 
 .container {
     background-color: 
-    #365150; 
+    #365150;
+    margin-top: -1rem; 
    
 }
 
