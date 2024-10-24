@@ -1,20 +1,45 @@
+
+.product-section {
+  width: 100%; /* Ensure the section is full width */
+  overflow: hidden; /* Hide overflow if necessary */
+ 
+  height: 300px; /* Set the height of the slider */
+  animation: changeBackground 60s infinite; /* 60s total for 3 images, repeating infinitely */
+
+}
+
+@keyframes changeBackground {
+  0% { background-image: url('../../assets/images/homed (2).jpeg'); }
+  20% { background-image: url('../../assets/images/fireplace.jpeg'); } 
+  40% { background-image: url('../../assets/images/homedthree.jpeg'); } 
+  40% { background-image: url('../../assets/images/eleven.jpeg'); } 
+  100% { background-image: url('../../assets/images/homed (2).jpeg'); }
+}
+.ti {
+  color: rgb(202, 202, 214);
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+
 .p {
   color: whitesmoke;
   font-size: 2rem;
-  margin-top: -3rem;
+  margin-top: 1rem;
 }
 .title {
     color: white;
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
-    margin-top: 1rem;
+    margin-top: -1.5rem;
   }
 /* Products section styling */
 .products {
     background-color: #485251;
     padding: 20px;
-    margin-top: -2px;
+    margin-top: -4px;
   }
   
   .product-row {

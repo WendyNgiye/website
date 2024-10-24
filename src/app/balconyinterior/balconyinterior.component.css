@@ -36,8 +36,9 @@
     margin-left: auto; 
 }
 
-.product-card:hover {
-    transform: scale(1.05);
+.product-card:hover, .product-cardtwo:hover {
+    transform: scale(1.05); /* Card moves a bit on hover */
+    z-index: 2; /* Ensure the card overlaps the first section when hovered */
 }
 
 .product-layout {
@@ -59,7 +60,7 @@
 .product-info h3 {
     font-size: 1.2em;
     margin: 10px 0;
-   color:blue;
+   color:white;
   
     
 }

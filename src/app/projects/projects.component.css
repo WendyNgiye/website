@@ -1,4 +1,22 @@
 /* General styling */
+
+.project-section {
+  width: 100%; /* Ensure the section is full width */
+  overflow: hidden; /* Hide overflow if necessary */
+ 
+  height: 300px; /* Set the height of the slider */
+  animation: changeBackground 60s infinite; /* 60s total for 3 images, repeating infinitely */
+
+}
+
+@keyframes changeBackground {
+  0% { background-image: url('../../assets/images/homed (2).jpeg'); }
+  20% { background-image: url('../../assets/images/fireplace.jpeg'); } 
+  40% { background-image: url('../../assets/images/homedthree.jpeg'); } 
+  40% { background-image: url('../../assets/images/eleven.jpeg'); } 
+  100% { background-image: url('../../assets/images/homed (2).jpeg'); }
+}
+
 .t, .titletwo {
   text-align: center;
   color: blue;

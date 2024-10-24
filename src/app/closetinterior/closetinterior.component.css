@@ -1,0 +1,170 @@
+.back {
+    background-image: url('../../assets/images/four.jpeg');
+    margin-top: -1rem;
+    padding: 1rem; /* Add some padding for better visual spacing */
+}/* Container for the slider */
+.closet-section {
+    width: 102.5%; /* Ensure the section is full width */
+    overflow: hidden; /* Hide overflow if necessary */
+    margin-left: -1rem;
+    height: 300px; /* Set the height of the slider */
+    animation: changeBackground 60s infinite; /* 60s total for 3 images, repeating infinitely */
+
+}
+
+@keyframes changeBackground {
+    0% { background-image: url('../../assets/images/homed (2).jpeg'); }
+    20% { background-image: url('../../assets/images/fireplace.jpeg'); } 
+    40% { background-image: url('../../assets/images/homedthree.jpeg'); } 
+    40% { background-image: url('../../assets/images/eleven.jpeg'); } 
+    100% { background-image: url('../../assets/images/homed (2).jpeg'); }
+}
+.title {
+    color: blue;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.product-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px;
+}
+
+.product-card,.product-cardtwo{
+    width: 55%; /* Base width for larger screens */
+    border-radius: 8px;
+    background-color: #5d7070;    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    overflow: hidden; /* Prevent overflow of content */
+}
+
+.product-cardtwo{
+    margin-left: auto; 
+}
+
+.product-card:hover, .product-cardtwo:hover {
+    transform: translateY(-50px); /* Move the card 20px upwards on hover */
+    z-index: 2; /* Bring the card on top of other content */
+    transition: transform 0.3s ease; /* Smooth transition for the hover effect */
+}
+.product-layout {
+    display: flex;
+    align-items: center; /* Center vertically */
+}
+
+.product-info {
+    flex: 1; /* Allow the text section to take available space */
+    text-align: left; /* Align text to the left */
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-info h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.description {
+    color:rgb(253, 243, 243);
+    margin-bottom: 8px;
+}
+
+.price-range {
+    font-weight: bold;
+    color: white;
+}
+
+.framed,
+.canvas,
+.stickers,
+.metal,.wood,.wooven,.photo,.decal {
+    width: 20rem; /* Fixed width for images */
+    height: 20rem; /* Fixed height for images */
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px; /* Add rounded corners to images */
+    margin: 0 10px; /* Add margin to separate image and text */
+}
+
+.framed {
+    background-image: url('../../assets/art/framed.jpeg');
+}
+
+.canvas {
+    background-image: url('../../assets/art/canvas.jpeg');
+}
+
+.stickers {
+    background-image: url('../../assets/art/sculptures.jpeg');
+}
+
+.metal {
+    background-image: url('../../assets/art/metal.jpeg');
+}
+.wood{
+    background-image: url('../../assets/art/wood.jpeg');
+}
+.wooven {
+    background-image: url('../../assets/art/wooven.jpeg');
+}
+.photo {
+    background-image: url('../../assets/art/photo.jpeg');
+}
+.decal {
+    background-image: url('../../assets/art/decals.jpeg');
+}
+h3 {
+    color:black;
+}
+
+/* Responsive styling for smaller screens */
+@media screen and (max-width: 768px) {
+    .product-card {
+        flex-direction: column; /* Stacks items vertically on mobile */
+        gap: 10px; /* Adjust gap */
+               
+    }
+    .product-layout {
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-start; /* Align items to start */
+        
+    }
+
+.framed,.canvas,.stickers,.metal,.wood,.wooven,.photo,.decal {
+        flex-direction: column; /* Stacks items vertically on mobile */
+        gap: 10px; /* Adjust gap */
+        
+        width: 11rem; /* Make images responsive */
+        height: 18rem; /* Auto height for mobile */
+       object-fit: cover;
+       background-position: center;
+       background-size: cover;
+    }
+   
+}
+.button {
+    background-color:rgba(9, 9, 122, 0.932);
+
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding around the text */
+    border: none; /* Remove borders */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer/hand icon on hover */
+    font-size: 16px; /* Increase font size */
+    font-weight: bold; /* Make the text bold */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+  }
+  
+  .button:hover {
+    background-color: #808880; /* Darker green on hover */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add subtle shadow on hover */
+  }
+  
