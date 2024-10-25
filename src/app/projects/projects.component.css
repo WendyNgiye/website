@@ -5,15 +5,16 @@
   overflow: hidden; /* Hide overflow if necessary */
   height: 350px; /* Set the height of the slider */
   animation: changeBackground 20s infinite; /* 60s total for 3 images, repeating infinitely */
+  background-position: center bottom; 
 
 }
 
 @keyframes changeBackground {
-  0% { background-image: url('../../assets/projs/patio.jpeg'); }
+  0% {  background-image: url('../../assets/images/sittingroom.jpeg'); }
   20% { background-image: url('../../assets/projs/bat.jpeg'); } 
   60% {  background-image: url('../../assets/projs/kitche.jpeg'); } 
   80% {  background-image: url('../../assets/projs/living.jpeg'); } 
-  100% { background-image: url('../../assets/projs/patio.jpeg'); }
+  100% {background-image: url('../../assets/images/sittingroom.jpeg'); }
 }
 
 .t, .titletwo {
@@ -27,9 +28,9 @@
 .title, .t {
   color: white;
   text-align: center;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bold;
-  margin-top: 1rem;
+  margin-top: 9rem;
 }
 
 /* Services section styling */

@@ -17,8 +17,9 @@
 .title {
     color: blue;
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
+    margin-top: 9rem;
 }
 
 #content {

@@ -4,7 +4,6 @@
   overflow: hidden; /* Hide overflow if necessary */
   height: 350px; /* Set the height of the slider */
   animation: changeBackground 60s infinite; /* 60s total for 3 images, repeating infinitely */
-  
 
 }
 
@@ -25,17 +24,16 @@
 
 
 .p {
-  color: brown;
+  color: white;
   font-size: 1.5rem;
   margin-top: -1rem;
 }
 .title {
     color: white;
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
-    margin-top: 1rem;
-  }
+    margin-top: 9rem;  }
 /* Products section styling */
 .products {
     background-color: #485251;
