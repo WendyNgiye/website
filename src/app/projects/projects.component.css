@@ -3,18 +3,17 @@
 .project-section {
   width: 100%; /* Ensure the section is full width */
   overflow: hidden; /* Hide overflow if necessary */
- 
-  height: 300px; /* Set the height of the slider */
+  height: 350px; /* Set the height of the slider */
   animation: changeBackground 20s infinite; /* 60s total for 3 images, repeating infinitely */
 
 }
 
 @keyframes changeBackground {
-  0% { background-image: url('../../assets/images/homed (2).jpeg'); }
-  20% { background-image: url('../../assets/images/fireplace.jpeg'); } 
-  40% { background-image: url('../../assets/images/homedthree.jpeg'); } 
-  40% { background-image: url('../../assets/images/eleven.jpeg'); } 
-  100% { background-image: url('../../assets/images/homed (2).jpeg'); }
+  0% { background-image: url('../../assets/projs/patio.jpeg'); }
+  20% { background-image: url('../../assets/projs/bat.jpeg'); } 
+  60% {  background-image: url('../../assets/projs/kitche.jpeg'); } 
+  80% {  background-image: url('../../assets/projs/living.jpeg'); } 
+  100% { background-image: url('../../assets/projs/patio.jpeg'); }
 }
 
 .t, .titletwo {
@@ -116,7 +115,7 @@
 }
 
 .ballroom {
-  background-image: url('../../assets/images/Ballroom.jpeg');
+ background-image: url('../../assets/projs/bat.jpeg');
 }
 .closet {
   background-image: url('../../assets/images/closet.jpeg');
@@ -138,11 +137,7 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.card:hover {
-  transform: translateY(-50px); /* Move the card 20px upwards on hover */
-  z-index: 2; /* Bring the card on top of other content */
-  transition: transform 0.3s ease; /* Smooth transition for the hover effect */
-}
+
 
 .card-image {
   width: 100%;

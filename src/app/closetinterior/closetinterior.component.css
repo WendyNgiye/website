@@ -92,16 +92,16 @@
 
 
 .dresser {
-    background-image: url('../../assets/closetint/close.png');
+    background-image: url('../../assets/closetint/dresser.jpeg');
 }
 .shoerack{
     background-image: url('../../assets/closetint/shoerack.png');
 }
 .lighting{
-    background-image: url('../../assets/closetint/baskets.png');
+    background-image: url('../../assets/closetint/nn.jpeg');
 }
 .table{
-    background-image: url('../../assets/closetint/baskets.png');
+    background-image: url('../../assets/closetint/Closet!.jpeg');
 }
 .baskets{
     background-image: url('../../assets/closetint/baskets.png');
@@ -110,7 +110,7 @@
     background-image: url('../../assets/closetint/accesories.png');
 }
 .standard{
-    background-image: url('../../assets/closetint/baskets.png');
+    background-image: url('../../assets/closetint/custom.jpeg');
 }
 h3 {
     color:maroon;

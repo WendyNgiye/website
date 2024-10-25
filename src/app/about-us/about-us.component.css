@@ -2,20 +2,20 @@
     width: 100%; /* Ensure the section is full width */
     overflow: hidden; /* Hide overflow if necessary */
     height: 400px; /* Set the height of the slider */
-    animation: changeBackground 30s infinite; /* 60s total for 3 images, repeating infinitely */
+    animation: changeBackground 40s infinite; /* 60s total for 3 images, repeating infinitely */
 
 }
 
 @keyframes changeBackground {
-    0% { background-image: url('../../assets/images/aboutus.jpeg'); }
-    40% { background-image: url('../../assets/images/home.png'); } /* Second image */
-    60% { background-image: url('../../assets/images/home.png'); } /* Second image */
-
-    100% { background-image: url('../../assets/images/cool.jpeg'); } /* Second image */
+    0% { background-image: url('../../assets/pillowcases/lumbar.jpeg'); }
+    30% { background-image: url('../../assets/projects/swing.png'); } 
+    60% { background-image: url('../../assets/bathroom/organizer.jpeg'); } 
+    90% { background-image: url('../../assets/greenery/dinintable.jpeg'); } 
+    100% { background-image: url('../../assets/decopieces/bookshelfone.jpeg'); } 
 
 }
 .title {
-    color: maroon;
+    color: blue;
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
