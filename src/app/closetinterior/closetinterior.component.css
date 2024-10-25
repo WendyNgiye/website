@@ -7,7 +7,7 @@
     width: 102.5%; /* Ensure the section is full width */
     overflow: hidden; /* Hide overflow if necessary */
     margin-left: -1rem;
-    height: 300px; /* Set the height of the slider */
+    height: 350px; /* Set the height of the slider */
     animation: changeBackground 20s infinite; /* 60s total for 3 images, repeating infinitely */
 
 }
@@ -22,6 +22,7 @@
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
+    margin-top: 9rem;
 }
 
 .product-section {
@@ -114,6 +115,7 @@
 }
 h3 {
     color:maroon;
+    
 }
 
 /* Responsive styling for smaller screens */
@@ -129,7 +131,13 @@ h3 {
         
     }
 
-.framed,.canvas,.stickers,.metal,.wood,.wooven,.photo,.decal {
+    .dresser,
+    .shoerack,
+    .lighting,
+    .table,
+    .baskets,
+    .acceso,
+    .standard {
         flex-direction: column; /* Stacks items vertically on mobile */
         gap: 10px; /* Adjust gap */
         
