@@ -19,7 +19,6 @@ import { CandlesComponent } from './candles/candles.component';
 import { DecorativePillowsComponent } from './decorative-pillows/decorative-pillows.component';
 import { AirFreshenerComponent } from './air-freshener/air-freshener.component';
 import { ColorfulglasswareComponent } from './colorfulglassware/colorfulglassware.component';
-
 import { CurtainsholderComponent } from './curtainsholder/curtainsholder.component';
 import { WallpapersComponent } from './wallpapers/wallpapers.component';
 import { GlassmarblesComponent } from './glassmarbles/glassmarbles.component';
@@ -54,7 +53,6 @@ import { ClosetinteriorComponent } from './closetinterior/closetinterior.compone
     DecorativePillowsComponent,
     AirFreshenerComponent,
     ColorfulglasswareComponent,
-   
     CurtainsholderComponent,
     WallpapersComponent,
     GlassmarblesComponent,

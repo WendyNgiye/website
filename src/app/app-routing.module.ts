@@ -4,8 +4,6 @@ import { HomeComponent } from './home/home.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { AboutUSComponent } from './about-us/about-us.component';
 import { ProjectsComponent } from './projects/projects.component';
-
-
 import { MirrorComponent } from './mirror/mirror.component';
 import { AirFreshenerComponent } from './air-freshener/air-freshener.component';
 import { ArtificialPlantsComponent } from './artificial-plants/artificial-plants.component';

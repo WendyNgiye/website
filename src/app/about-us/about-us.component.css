@@ -2,7 +2,7 @@
     width: 100%; /* Ensure the section is full width */
     overflow: hidden; /* Hide overflow if necessary */
     height: 400px; /* Set the height of the slider */
-    animation: changeBackground 40s infinite; /* 60s total for 3 images, repeating infinitely */
+    animation: changeBackground 40s infinite;
 
 }
 
