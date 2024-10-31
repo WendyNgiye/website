@@ -40,23 +40,39 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 50px; /* Adjust size as needed */
+    width: 50px;
     height: 50px;
     background-color: blue;
     color: white;
     border-radius: 50%;
     text-decoration: none;
-    font-size: 20px; /* Icon size */
-    margin-left: 80%;
-  }
-  
-  .call-button:hover {
-    background-color: #45a049; /* Darker green on hover */
-  }
-  
+    font-size: 20px;
+    position: absolute; /* Adjust position to float it */
+    right: 20px; /* Distance from the right side */
+    bottom: 20px; /* Distance from the bottom */
+}
 
+.call-button:hover {
+    background-color: #45a049;
+}
 
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .call-button {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+        right: 15px;
+        bottom: 15px;
+    }
+}
 
-
-
-
+@media (max-width: 480px) {
+    .call-button {
+        width: 35px;
+        height: 35px;
+        font-size: 16px;
+        right: 10px;
+        bottom: 10px;
+    }
+}
