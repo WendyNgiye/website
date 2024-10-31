@@ -29,9 +29,7 @@ background-color: white;
 }
 
 
-.product-card:hover {
-  transform: scale(1.05);
-}
+
 
 .product-image {
   max-width: 120%;
@@ -52,11 +50,7 @@ background-color: white;
 
 }
 
-.price-range {
-  font-size: 0.9em; /* Reduce font size */
-  font-weight: bold;
-  color:red;
-}
+
 
 
 .split,.moss,.eggs,.winecork,.thumpstuck,.seashells,.coffeebeans,.pebbles,.alphabetmagnets,.scrabbletiles
