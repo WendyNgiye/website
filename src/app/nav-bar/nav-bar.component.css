@@ -10,18 +10,7 @@
     flex-wrap: wrap; /* Allows wrapping of items */
 }
 
-.navbar .nav-link {
-    color: whitesmoke;
-    text-decoration: none;
-    font-size: 18px;
-    margin-left: 2rem; /* Add spacing between links */
-}
-
-.navbar .nav-link:hover {
-    color: #ddd; /* Lighter color on hover */
-}
-
-.logo {
+.navbar .logo {
     background-image: url('../../assets/images/logowe.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -31,6 +20,22 @@
     margin-right: 20px; /* Space between logo and nav links */
 }
 
+.nav-links {
+    display: flex;
+    margin-left: auto; /* Pushes nav links to the right */
+}
+
+.nav-links .nav-link {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 2rem; /* Add spacing between links */
+}
+
+.nav-links .nav-link:hover {
+    color: #ddd; /* Lighter color on hover */
+}
+
 /* Responsive design for mobile devices */
 @media screen and (max-width: 768px) {
     .navbar {
@@ -38,15 +43,21 @@
         align-items: flex-start; /* Align items to the left */
     }
 
-    .navbar .nav-link {
-        margin-left: 0; /* Remove horizontal margin */
-        padding: 10px 0; /* Add vertical padding for better spacing */
-        font-size: 16px; /* Adjust font size for mobile */
-    }
-
     .logo {
         margin-left: 0; /* Adjust the logo position */
         margin-bottom: 10px; /* Add spacing below the logo */
         align-self: center; /* Center logo in mobile view */
+    }
+
+    .nav-links {
+        width: 100%; /* Full width for nav links on mobile */
+        justify-content: flex-start; /* Align links to the left */
+        flex-direction: column; /* Stack links vertically */
+    }
+
+    .nav-links .nav-link {
+        margin-left: 0; /* Remove horizontal margin */
+        padding: 10px 0; /* Add vertical padding for better spacing */
+        font-size: 16px; /* Adjust font size for mobile */
     }
 }
