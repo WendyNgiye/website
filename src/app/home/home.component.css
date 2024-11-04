@@ -49,7 +49,7 @@
     font-size: 20px;
     position: absolute; /* Adjust position to float it */
     right: 20px; /* Distance from the right side */
-    bottom: 20px; /* Distance from the bottom */
+    bottom: 44px; /* Distance from the bottom */
 }
 
 .call-button:hover {
@@ -63,7 +63,7 @@
         height: 40px;
         font-size: 18px;
         right: 15px;
-        bottom: 15px;
+        bottom: 10px;
     }
 }
 
@@ -76,3 +76,20 @@
         bottom: 10px;
     }
 }
+@media (max-width: 768px) {
+    .main-content p {
+        font-size: 40px; /* Smaller font size for tablets */
+        padding: 8px 15px; /* Adjust padding for smaller screens */
+    }
+    .para {
+        font-size: 2.5rem; /* Slightly reduce size */
+    }
+}
+@media (max-width: 480px) {
+    .main-content p {
+        font-size: 28px; /* Smaller font size for mobile */
+        padding: 6px 10px; /* Further adjust padding */
+    }
+    .para {
+        font-size: 2rem; /* Smaller size for mobile */
+    }}

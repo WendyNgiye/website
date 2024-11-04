@@ -1,10 +1,12 @@
+
+
+
 /* Default navbar styles */
 .navbar {
     position: relative; 
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 20px;
     background-color: burlywood; 
     overflow: hidden;
     flex-wrap: wrap; /* Allows wrapping of items */
