@@ -67,15 +67,7 @@
     }
 }
 
-@media (max-width: 480px) {
-    .call-button {
-        width: 35px;
-        height: 35px;
-        font-size: 16px;
-        right: 10px;
-        bottom: 10px;
-    }
-}
+
 @media (max-width: 768px) {
     .main-content p {
         font-size: 40px; /* Smaller font size for tablets */
@@ -83,6 +75,13 @@
     }
     .para {
         font-size: 2.5rem; /* Slightly reduce size */
+    }
+    .call-button {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+        right: 15px;
+        bottom: 3rem;
     }
 }
 @media (max-width: 480px) {
@@ -92,4 +91,11 @@
     }
     .para {
         font-size: 2rem; /* Smaller size for mobile */
+    }
+    .call-button {
+        width: 35px;
+        height: 35px;
+        font-size: 16px;
+        right: 10px;
+        bottom: 10px;
     }}
