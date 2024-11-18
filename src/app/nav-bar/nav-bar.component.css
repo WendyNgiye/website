@@ -3,18 +3,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
   background-color: burlywood;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
-  position: sticky;
-  top: 0;
-  z-index: 1000;
   font-weight: bold;
 }
 
 /* Logo */
 .navbar .logo {
-  background-image: url('../../assets/images/logowe.png');
+  background-image: url('../../assets/images/designerlogo.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -56,7 +52,7 @@
 }
 
 .nav-links a:hover {
-  color: #28a745;
+  color: white;
 }
 
 /* Responsive styles */
