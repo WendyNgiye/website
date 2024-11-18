@@ -33,6 +33,7 @@ import { CommercialinteriorComponent } from './commercialinterior/commercialinte
 import { KitcheninteriorComponent } from './kitcheninterior/kitcheninterior.component';
 import { DininginteriorComponent } from './dininginterior/dininginterior.component';
 import { ClosetinteriorComponent } from './closetinterior/closetinterior.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -67,6 +68,7 @@ import { ClosetinteriorComponent } from './closetinterior/closetinterior.compone
     KitcheninteriorComponent,
     DininginteriorComponent,
     ClosetinteriorComponent,
+    FooterComponent,
   
   ],
   imports: [
