@@ -52,4 +52,11 @@
     font-size: 0.9rem;
     color: #ddd;
   }
-  
+  .logo {
+    background-image: url('../../assets/images/designerlogo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 5rem;
+    height: 5rem;
+  }
