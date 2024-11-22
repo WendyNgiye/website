@@ -5,6 +5,7 @@
   align-items: center;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
   font-weight: bold;
+  background-color: white;
 }
 
 /* Logo */
@@ -51,7 +52,7 @@
 }
 
 .nav-links a:hover {
-  color: white;
+  color: rgb(122, 108, 108);
 }
 
 /* Responsive styles */
