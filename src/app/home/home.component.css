@@ -1,41 +1,51 @@
-
 #content {
-    
-    background-image: url('../../assets/images/back.jpg');
+    background-image: url('../../assets/home/ho.jpg'); /* Background image for the section */
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
-}
-/* Apply Flexbox to the parent container */
-.main-content {
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    height: 87vh; 
-    flex-direction: column; 
+    position: relative; 
+    height: 100vh; /* Full viewport height */
 }
 
-/* Style for paragraphs */
-.main-content p {
-    color: whitesmoke; 
-    font-size: 60px; 
-    font-weight: 900;
-    border-radius: 5px; 
-    background-color: #4158D0; 
-    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
-    display: inline-block; 
+/* Main content container */
+.main-content {
+    position: relative; /* Enable positioning for child elements */
+    width: 100%; 
+    height: 100%; 
+}
+
+/* Card styling */
+.card {
+    position: absolute; /* Positioned at the bottom-left */
+    bottom: 20px; /* Distance from the bottom */
+    left: 20px; /* Distance from the left */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    padding: 20px; /* Add spacing inside the card */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    color: white; /* Text color */
+    max-width: 400px; /* Optional: Limit the width of the card */
+}
+
+/* Paragraph styles */
+.card p {
+    color: white; 
+    font-size: 24px; 
+    font-weight: 800;
     margin: 10px 0; 
 }
 
-.para {
-   color: goldenrod; 
-   font-style: italic;
-   font-weight: bold;
-   font-size: 3rem;
-   margin-top: 20px; /* Adjusts the space between the two sections */
-   text-align: center;
+/* Styling for "Wendy's Interiors" */
+.para h2 {
+    color: goldenrod; 
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 10px 0;
+align-content: center; 
 }
-   
+
+/* Call button styling */
 .call-button {
     display: inline-flex;
     justify-content: center;
@@ -58,23 +68,9 @@
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
-    .call-button {
-        width: 40px;
-        height: 40px;
-        font-size: 18px;
-        right: 15px;
-        bottom: 10px;
-    }
-}
-
-
-@media (max-width: 768px) {
-    .main-content p {
-        font-size: 40px; /* Smaller font size for tablets */
-        padding: 8px 15px; /* Adjust padding for smaller screens */
-    }
-    .para {
-        font-size: 2.5rem; /* Slightly reduce size */
+    .card {
+        padding: 15px;
+        font-size: 20px;
     }
     .call-button {
         width: 40px;
@@ -84,13 +80,11 @@
         bottom: 3rem;
     }
 }
+
 @media (max-width: 480px) {
-    .main-content p {
-        font-size: 28px; /* Smaller font size for mobile */
-        padding: 6px 10px; /* Further adjust padding */
-    }
-    .para {
-        font-size: 2rem; /* Smaller size for mobile */
+    .card {
+        padding: 10px;
+        font-size: 18px;
     }
     .call-button {
         width: 35px;
@@ -98,4 +92,5 @@
         font-size: 16px;
         right: 10px;
         bottom: 10px;
-    }}
+    }
+}

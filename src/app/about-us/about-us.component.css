@@ -88,7 +88,7 @@ h2 {
 
 /* Background image for .photo */
 .photo {
-    background-image: url('../../assets/images/image\ 1.jpeg'); /* Use %20 for spaces */
+    background-image: url('../../assets/home/interior.jpg'); /* Use %20 for spaces */
     width: 25rem; 
     height: 25rem;
     margin-left: 9rem;
@@ -96,7 +96,7 @@ h2 {
 
 /* Background image for .p and .ph */
 .p {
-    background-image: url('../../assets/images/three.jpeg');
+    background-image: url('../../assets/home/living.jpg');
     width: 40rem; 
     height: 20rem; 
     margin-left: auto; /* Pushes the second photo to the far right */

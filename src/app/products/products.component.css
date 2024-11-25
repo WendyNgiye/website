@@ -8,10 +8,10 @@
 }
 
 @keyframes changeBackground {
-  0% { background-image: url('../../assets/images/homed (2).jpeg'); }
-  20% { background-image: url('../../assets/kitchenint/Mediterranean.jpeg'); }
+  0% { background-image: url('../../assets/home/living.jpg'); }
+  20% { background-image: url('../../assets/lighting/ambient.jpeg'); }
   40% { background-image: url('../../assets/art/metal.jpeg'); }
-  60% { background-image: url('../../assets/projects/walldeco.png'); }
+  60% { background-image: url('../../assets/home/interior.jpg'); }
   80% { background-image: url('../../assets/curtains/blackoutcurtains.png'); }
   100% { background-image: url('../../assets/images/homed (2).jpeg'); } /* Loops back to the first image */
 }
