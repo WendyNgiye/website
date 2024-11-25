@@ -40,7 +40,7 @@
 }
 
 /* Centered text block styling */
-.p {
+.style ,.p{
     color: white; 
     font-size: 60px; 
     font-weight: 900;
@@ -48,6 +48,9 @@
     text-align: center;
     max-width: 90%; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+.p {
+   
     overflow: hidden;
     animation: slideInOut 5s ease-in-out infinite; /* Infinite loop with slideInOut animation */
 }
@@ -84,6 +87,23 @@
     font-weight: 800;
     margin: 10px 0; 
 }
+.but{ 
+        background-color: blue; /* Green background */
+        color: white; /* White text */
+        padding: 10px 20px; /* Padding around the text */
+        border: none; /* Remove borders */
+        border-radius: 5px; /* Rounded corners */
+        cursor: pointer; /* Pointer/hand icon on hover */
+        font-size: 16px; /* Increase font size */
+        font-weight: bold; /* Make the text bold */
+        transition: background-color 0.3s ease; /* Smooth hover transition */
+      }
+      
+      .button:hover {
+        background-color: #808880; /* Darker green on hover */
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add subtle shadow on hover */
+      }
+
 
 /* Styling for "Wendy's Interiors" */
 .para h2 {
