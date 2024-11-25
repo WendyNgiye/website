@@ -26,17 +26,20 @@
     border-radius: 5px; 
     text-align: center;
     max-width: 90%; 
-    background-color:rgba(2, 40, 105, 0.5); /* Semi-transparent goldenrod */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
     overflow: hidden;
-    animation: slideIn 2s ease-out;
+    animation: slideInOut 6s ease-in-out infinite; /* Infinite loop with slideInOut animation */
 }
 
-@keyframes slideIn {
+@keyframes slideInOut {
     0% {
         transform: translateX(-100%); /* Start off-screen to the left */
     }
+    50% {
+        transform: translateX(0); /* Slide in to the normal position */
+    }
     100% {
-        transform: translateX(0); /* End at the normal position */
+        transform: translateX(100%); /* Slide out to the right */
     }
 }
 
@@ -63,12 +66,14 @@
 
 /* Styling for "Wendy's Interiors" */
 .para h2 {
-    color: goldenrod; 
+    color: rgb(231, 172, 22); 
     font-style: italic;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 3rem;
     margin: 10px 0;
     align-content: center; 
+    border-bottom: 3px solid goldenrod; /* Adds the golden line */
+    padding-bottom: 10px; /* Adds spacing between the text and the line */
 }
 
 /* Call button styling */
