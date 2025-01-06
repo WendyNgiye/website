@@ -161,46 +161,83 @@
 .product-row.two-items .card-image {
   height: 400px; /* Increase the height of the images */
 }
+/* General media query adjustments for better responsiveness */
 
+/* For screens up to 768px (mobile) */
 @media (max-width: 768px) {
-  .product-row.two-items .product-item {
-    flex: 1 0 100%; /* Full width on mobile */
-    margin-bottom: 20px; /* Add margin for spacing */
+  .product-row {
+    flex-direction: column; /* Stack items vertically */
+    gap: 15px; /* Add spacing between items */
   }
 
-  .product-row.two-items .card-image {
-    height: auto; /* Auto height for mobile */
-  }
-}
-
-.card-image {
-  width: 100%; /* Make images responsive */
-  height: auto; /* Auto height for mobile */
-}
-
-@media (max-width: 1024px) {
   .product-item {
-    flex: 1 0 48%; /* Two items per row on tablets */
+    flex: 1 0 100%; /* Full width for each product */
   }
 
   .card-image {
-    height: 200px; /* Adjust height on medium screens */
+    height: 200px; /* Reduce image height for mobile */
+  }
+
+  .product-description {
+    font-size: 14px; /* Adjust font size for mobile */
+  }
+
+  .button {
+    font-size: 14px; /* Smaller button text on mobile */
+    padding: 8px 16px; /* Adjust button size for mobile */
   }
 }
 
+/* For screens between 769px and 1024px (tablet) */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .product-row {
+    flex-wrap: wrap; /* Wrap items if necessary */
+    gap: 20px; /* Add spacing between items */
+  }
+
+  .product-item {
+    flex: 1 0 48%; /* Two items per row */
+  }
+
+  .card-image {
+    height: 250px; /* Adjust height for tablet screens */
+  }
+
+  .product-description {
+    font-size: 15px; /* Slightly larger text for tablets */
+  }
+
+  .button {
+    font-size: 15px; /* Adjust button text size */
+    padding: 10px 18px; /* Adjust button size */
+  }
+}
+
+/* For screens above 1024px (desktop) */
 @media (min-width: 1025px) {
-  .product-item {
-    flex: 1 0 30%; /* Three items per row on larger screens */
+  .product-row {
+    flex-wrap: wrap; /* Wrap items if necessary */
+    gap: 30px; /* Add spacing between items */
   }
 
-  .product-row.two-items .product-item {
-    flex: 1 0 48%; /* Two items per row for specific row */
+  .product-item {
+    flex: 1 0 30%; /* Three items per row */
   }
 
   .card-image {
-    height: 250px; /* Fixed height for large screens */
+    height: 300px; /* Larger images for desktop */
+  }
+
+  .product-description {
+    font-size: 16px; /* Standard font size */
+  }
+
+  .button {
+    font-size: 16px; /* Standard button text size */
+    padding: 12px 20px; /* Standard button size */
   }
 }
+
 .button {
   background-color:rgba(92, 92, 177, 0.932); /* Green background */
   color: white; /* White text */
