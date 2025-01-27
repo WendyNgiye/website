@@ -8,24 +8,6 @@
     animation: changeBackground 120s ease-in-out infinite; /* Infinite background change animation */
 }
 
-/* Keyframes for changing background images */
-@keyframes changeBackground {
-    0% {
-        background-image: url('../../assets/home/ho.jpg'); /* First background image */
-    }
-    25% {
-        background-image: url('../../assets/home/one.jpg'); /* Second background image */
-    }
-    50% {
-        background-image: url('../../assets/home/two.jpg'); /* Third background image */
-    }
-     75% {
-        background-image: url('../../assets/home/three.jpg'); /* Loop back to the first background image */
-    }
-    100% {
-        background-image: url('../../assets/home/four.jpg'); /* Loop back to the first background image */
-    }
-}
 
 
 /* Main content container */
